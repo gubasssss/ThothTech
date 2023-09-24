@@ -9,8 +9,8 @@ Nesta primeira Sprint o foco foi no desenvolvimento do wireframe para ter uma ci
 <ul>
   <li>Tela Home</li>
   <li>Menu Dropdown</li>
-  <li>Tela Métodos Ágeis/li>
-  <li>Páginas das Funções Scrum (P.O,S.T,S.M)li
+  <li>Tela Métodos Ágeis</li>
+  <li>Páginas das Funções Scrum (P.O,S.T,S.M)</li>
 </ul>
 
 <h2 aling="center"> Tecnologias usadas na primeira sprint </h2>
