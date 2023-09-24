@@ -2,7 +2,7 @@
 
 # Relatório Sprint - 01 (24/09)
 
-Nesta primeira Sprint o foco foi no desenvolvimento do wireframe para ter uma cisão inicial do produto
+Nesta primeira Sprint o foco foi no desenvolvimento do wireframe para ter uma visão inicial do produto
 
 ## Frontend
 
@@ -13,7 +13,7 @@ Nesta primeira Sprint o foco foi no desenvolvimento do wireframe para ter uma ci
   <li>Páginas das Funções Scrum (P.O,S.T,S.M)</li>
 </ul>
 
-<h2 aling="center"> Tecnologias usadas na primeira sprint </h2>
+<h2 aling="center"> Tecnologias Utilizadas na Primeira Sprint </h2>
 <span id="tecnologia">
 
 
