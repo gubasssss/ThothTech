@@ -4,7 +4,8 @@
 
 <p align="center">
     <a href="#visao"> Visão geral </a> | 
-    <a href="#solucao">Solução proposta</a> | 
+    <a href="#solucao">Solução proposta</a> |
+    <a href="#pj">Planejamento das Sprints|
     <a href="#backlog">Backlog</a> | 
     <a href="#sprint">Relatório das sprints</a> | 
     <a href="#tecnologia">Tecnologias utilizadas</a> | 
@@ -24,6 +25,10 @@
 <span id="solucao">
  Seguindo a solicitação do nosso cliente desenvolvemos uma aplicação web, onde o objetivo principal é que as pessoas que a usem consigam entender e aplicar a metodologia ágil, em mais especifico o Scrum, seja no meio acadêmico dentro da fatec ou profissional em qualquer empresa que tenha o objetivo de atualizar seu processo de produção. 
 
+ ### Planejamento das Sprints
+ <span id="pj">
+
+<img tile=planejamento src=https://i.im.ge/2023/09/25/NL6M1m.Planejamento-Sprints.png>
 
     
 </p>
@@ -43,7 +48,7 @@
 | 1 | 6 | Eu, enquanto cliente,| Website   | 3h | :no_entry:           | 85 |
 | 1 | 7 | Eu, enquanto cliente,| Website   | 2h | :no_entry:           | 90 |
 | 1 | 8 | Eu, enquanto cliente,| Website   | 2h |:no_entry:            | 55 | 
-| 1 | 9 | Eu, enquanto cl      | Website   | 2h |:no_entry:            | 60 |
+| 1 | 9 | Eu, enquanto cliente | Website   | 2h |:no_entry:            | 60 |
 | 1 |10 | Eu, enquanto cliente | Website   | 1h |:no_entry:            | 95 |
 | 1 |11 | Eu, enquanto cliente | Website   | 5h |:no_entry:            | 80 |
 | 1 |12 | Eu, enquanto cliente,| Website   | 5h |:no_entry:            | 85 |
@@ -103,7 +108,8 @@
 |      Nome      |    Função       |                            Github                             |                           Linkedin                           |
 | :--------------: | :-----------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | Gustavo Badim  | Scrum Master  |[<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">](https://github.com/gubasssss) |[<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/gustavo-badim-8538b7285)|
-|   Mateus Toledo   | Product Owner | <a href="GUIT"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href="LINKE"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
-|Gustavo Braga | Desenvolvedor | <a href="GUIT"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href="hLINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
-| Márcio Gabriel | Desenvolvedor | <a href="GUIT"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href="hLINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
-| Vinicius Henrique| Desenvolvedor | <a href="GUIT"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href="hLINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
+|   Mateus Toledo   | Product Owner |  [<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">](https://github.com/RockRural)|  [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">]|
+|Gustavo Braga | Desenvolvedor | [<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">](https://github.com/HenryBRG)| [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">]|
+| Márcio Gabriel | Desenvolvedor | [<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">](https://github.com/Porisso90) | [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/m%C3%A1rcio-gabriel-426b0527b/)
+| Vinicius Henrique| Desenvolvedor | [<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">](https://github.com/Subinoonibus) | [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/vin%C3%ADcius-henrique-souza-4085b1226/) |
+|Flávio Gonçalves|Desenvolvedor|[<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">](https://github.com/flaviogcunha)|[<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/flavio-gon%C3%A7alves-21aa91261/)
