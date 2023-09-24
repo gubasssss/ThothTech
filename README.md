@@ -5,7 +5,7 @@
 <p align="center">
     <a href="#visao"> Visão geral </a> | 
     <a href="#solucao">Solução proposta</a> |
-    <a href="#pj">Planejamento das Sprints|
+    <a href="#pj">Planejamento das Sprints</a> |  
     <a href="#backlog">Backlog</a> | 
     <a href="#sprint">Relatório das sprints</a> | 
     <a href="#tecnologia">Tecnologias utilizadas</a> | 
@@ -28,7 +28,7 @@
  ### Planejamento das Sprints
  <span id="pj">
 
-  <img src="https://user-images.githubusercontent.com/111662298/196576883-3d3582ab-9edd-4e83-984d-81e9b91b461f.png" alt="planejamento sprints"/>
+  <img src="https://github.com/gubasssss/ThothTech/assets/143751785/a29ea6ca-d4cd-4755-8c99-70db992d2202" alt="planejamento sprints"/>
 
     
 </p>
@@ -113,3 +113,7 @@
 | Márcio Gabriel | Desenvolvedor | [<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">](https://github.com/Porisso90) | [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/m%C3%A1rcio-gabriel-426b0527b/)
 | Vinicius Henrique| Desenvolvedor | [<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">](https://github.com/Subinoonibus) | [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/vin%C3%ADcius-henrique-souza-4085b1226/) |
 |Flávio Gonçalves|Desenvolvedor|[<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">](https://github.com/flaviogcunha)|[<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/flavio-gon%C3%A7alves-21aa91261/)
+
+
+
+<a href="topo">→ Voltar ao Topo </a> 
