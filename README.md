@@ -37,24 +37,24 @@
 
 ### Backlog do Produto
 
-| Sprint | Tarefa |  US    | Item |  Estimativa de tempo   | Status   | Prioridade | 
+| Sprint | Tarefas |  User Story   | Item |  Tempo Estimado   | Status   | Dificuldade | 
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
-| 1 | 1 | EU, enquanto cliente,| Wireframe |10h | :white_check_mark:   | 70 |
-| 1 | 1 | EU, enquanto cliente | Wireframe | 6h | :white_check_mark:   | 40 |
-| 1 | 2 | EU, enquanto cliente,| Wireframe | 5h | :white_check_mark:   | 75 |
-| 1 | 3 | EU, enquanto cliente,| Wireframe | 4h | :white_check_mark:   | 65 |
-| 1 | 4 | EU, enquanto cliente,| Backlog   | 3h | :white_check_mark:   | 50 |
-| 1 | 5 | Eu, enquanto cliente,| Website   | 20h| :no_entry:           |100 |
-| 1 | 6 | Eu, enquanto cliente,| Website   | 3h | :no_entry:           | 85 |
-| 1 | 7 | Eu, enquanto cliente,| Website   | 2h | :no_entry:           | 90 |
-| 1 | 8 | Eu, enquanto cliente,| Website   | 2h |:no_entry:            | 55 | 
-| 1 | 9 | Eu, enquanto cliente | Website   | 2h |:no_entry:            | 60 |
-| 1 |10 | Eu, enquanto cliente | Website   | 1h |:no_entry:            | 95 |
-| 1 |11 | Eu, enquanto cliente | Website   | 5h |:no_entry:            | 80 |
-| 1 |12 | Eu, enquanto cliente,| Website   | 5h |:no_entry:            | 85 |
-| 1 |13 | Eu, enquanto cliente | Website   | 5h |:no_entry:            | 40 |
-| 1 |14 | Eu, enquanto cliente,| Website   | 8h |:no_entry:            | 35 |
-| 1 |15 | Eu, enquanto cliente,| Website   | 8h |:no_entry:            | 30 |
+| 1 | 1 | Eu, como cliente,quero um projeto návegalvel para ter uma visão inicial do site| Wireframe |10h | :white_check_mark:   | 7 |
+| 1 | 2 | Eu, como cliente,quero um menu dropdown que possa me dar acesso a diversas áreas do site | Wireframe | 6h | :white_check_mark:   | 5 |
+| 1 | 3 | Eu, como cliente,quero páginas focadas as funções do métodos ágeis (P.O,S.M e S.T)| Wireframe | 5h | :white_check_mark:   | 7 |
+| 1 | 4 | Eu, como cliente,quero uma aba focada na parte de metodologia ágil| Wireframe | 4h | :white_check_mark:   | 4 |
+| 1 | 4 | Eu, como cliente,| Backlog   | 3h | :white_check_mark:   | 50 |
+| 1 | 5 | Eu, como cliente,| Website   | 20h| :no_entry:           |100 |
+| 1 | 6 | Eu, como cliente,| Website   | 3h | :no_entry:           | 85 |
+| 1 | 7 | Eu, como cliente,| Website   | 2h | :no_entry:           | 90 |
+| 1 | 8 | Eu, como cliente,| Website   | 2h |:no_entry:            | 55 | 
+| 1 | 9 | Eu, como cliente | Website   | 2h |:no_entry:            | 60 |
+| 1 |10 | Eu, como cliente | Website   | 1h |:no_entry:            | 95 |
+| 1 |11 | Eu, como cliente | Website   | 5h |:no_entry:            | 80 |
+| 1 |12 | Eu, como cliente,| Website   | 5h |:no_entry:            | 85 |
+| 1 |13 | Eu, como cliente | Website   | 5h |:no_entry:            | 40 |
+| 1 |14 | Eu, como cliente,| Website   | 8h |:no_entry:            | 35 |
+| 1 |15 | Eu, como cliente,| Website   | 8h |:no_entry:            | 30 |
 
 
 ## Sprints
