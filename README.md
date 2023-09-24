@@ -3,30 +3,31 @@
 <h1 align="center"> Thoth Tech - Scrum API  </h1>
 
 <p align="center">
-    <a href="Visão_geral"> Visão geral </a> | 
-    <a href="Solução_proposta">Solução proposta</a> | 
-    <a href="Planejamento_das_sprints">Planejamento das sprints</a> |
-    <a href="Relatório_das_sprints">Relatório das sprints</a> | 
-    <a href="BACKLOGS">Relatório das sprints</a> | 
-    <a href="Tecnologias utilizadas">Tecnologias utilizadas</a> | 
-    <a href="Time">Time</a> | 
+    <a href="#visao"> Visão geral </a> | 
+    <a href="#solucao">Solução proposta</a> | 
+    <a href="#backlog">Backlog</a> | 
+    <a href="#sprint">Relatório das sprints</a> | 
+    <a href="#tecnologia">Tecnologias utilizadas</a> | 
+    <a href="#time">Time</a> | 
+
 
     
 </p>
 <h2 aling="center"> Visão geral </h2>
-
+<span id="visao">
    
  No mundo moderno em que vivemos é de suma importância que as empresas consigam ser dinamicas, eficientes e que seus funcionarios consigam acompanhar esse movimento. Por conta dessa realidade foi desenvolvido esse projeto junto a FATEC São José dos Campos - Prof. Jessen Vidal, onde a metodologia agil sera desenvolvida e aplicada. 
 
  
 
 <h2 aling="center"> Solução Proposta </h2>
+<span id="solucao">
  Seguindo a solicitação do nosso cliente desenvolvemos uma aplicação web, onde o objetivo principal é que as pessoas que a usem consigam entender e aplicar a metodologia ágil, em mais especifico o Scrum, seja no meio acadêmico dentro da fatec ou profissional em qualquer empresa que tenha o objetivo de atualizar seu processo de produção. 
 
 
     
 </p>
-<span id="backlogs">
+<span id="backlog">
 
 
 ### Backlog do Produto
@@ -51,8 +52,23 @@
 | 1 |15 | Eu, enquanto cliente,| Website   | 8h |:no_entry:            | 30 |
 
 
+## Sprints
+<span id="sprint">
+
+ 
+ ### SPRINT 1
+
+ ### SPRINT 2
+
+ ### SPRINT 3
+
+ ### SPRINT 4
+
+
 
 <h2 aling="center"> Tecnologias usadas na construção do projeto </h2>
+<span id="tecnologia">
+
 
 * <p>
       <img align="left" title="css3-logo" height="30px" src="https://user-images.githubusercontent.com/76211125/227503103-bb7005d7-5f2f-46e4-adb5-92ef19ce677d.png"/>
@@ -81,11 +97,13 @@
 
 
 ## TIME
+<span id="time">
+
 
 |      Nome      |    Função       |                            Github                             |                           Linkedin                           |
 | :--------------: | :-----------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-|      | Scrum Master  | <a href="GUIT"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href="hLINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
-|      | Product Owner | <a href="GUIT"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href="LINKE"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
-| | Desenvolvedor | <a href="GUIT"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href="hLINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
-|  | Desenvolvedor | <a href="GUIT"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href="hLINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
-| | Desenvolvedor | <a href="GUIT"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href="hLINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
+| Gustavo Badim  | Scrum Master  |[<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">](https://github.com/gubasssss) |[<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/gustavo-badim-8538b7285)|
+|   Mateus Toledo   | Product Owner | <a href="GUIT"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href="LINKE"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
+|Gustavo Braga | Desenvolvedor | <a href="GUIT"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href="hLINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
+| Márcio Gabriel | Desenvolvedor | <a href="GUIT"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href="hLINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
+| Vinicius Henrique| Desenvolvedor | <a href="GUIT"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href="hLINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
