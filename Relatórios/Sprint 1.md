@@ -32,6 +32,16 @@ Nesta primeira Sprint o foco foi no desenvolvimento do wireframe para ter uma ci
 <img align=center src="https://github.com/gubasssss/ThothTech/assets/143751785/4fe0048a-0456-47a8-ada3-4672f04cbbc5" alt="sprint1"/>
 
 ## Trabalho desenvolvido
+Prints do Site:
+
+
+<img align=center scr="https://github.com/gubasssss/ThothTech/assets/143751785/391922f7-affe-41ec-a390-c1a6369db7ff" alt="site1"/>
+
+<img align=center scr="https://github.com/gubasssss/ThothTech/assets/143751785/c2105be9-4478-4a77-a9ae-9fcef151f1c6" alt="site2"/>
+
+<img align=center scr="https://github.com/gubasssss/ThothTech/assets/143751785/1580deed-31ff-4a3a-9e65-b677f4cea178" alt="site3"/>
+
+
 
 [Vídeo com o projeto da Sprint 1](https://www.youtube.com/watch?v=jkgo9rAUTFE&ab_channel=Porisso)
 
