@@ -25,7 +25,7 @@
 <span id="solucao">
  Seguindo a solicitação do nosso cliente desenvolvemos uma aplicação web, onde o objetivo principal é que as pessoas que a usem consigam entender e aplicar a metodologia ágil, em mais especifico o Scrum, seja no meio acadêmico dentro da fatec ou profissional em qualquer empresa que tenha o objetivo de atualizar seu processo de produção. 
 
- ### Planejamento das Sprints
+<h2 aling="center"> Planejamento das Sprints </h2>
  <span id="pj">
 
   <img src="https://github.com/gubasssss/ThothTech/assets/143751785/a29ea6ca-d4cd-4755-8c99-70db992d2202" alt="planejamento sprints"/>
@@ -35,7 +35,7 @@
 <span id="backlog">
 
 
-### Backlog do Produto
+<h2 aling="center"> Backlog do Produto </h2>
 
 | Sprint | Tarefas |  User Story   | Item |  Tempo Estimado   | Status   | Dificuldade | 
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
@@ -61,7 +61,7 @@
 <span id="sprint">
 
  
- <a href="./Relatórios/Sprint 1.md">SPRINT 1 - 24/09/2022</a>
+ ### <a href="./Relatórios/Sprint 1.md">SPRINT 1 - 24/09/2022</a>
 
  ### SPRINT 2
 
@@ -71,7 +71,7 @@
 
 
 
-<h2 aling="center"> Tecnologias usadas na construção do projeto </h2>
+<h2 aling="center"> Tecnologias Utilizadas</h2>
 <span id="tecnologia">
 
 
