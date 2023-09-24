@@ -61,8 +61,7 @@
 <span id="sprint">
 
  
- ### SPRINT 1
- <a href="./Relatórios/Sprint 1.md">Sprint 01 - 24/09/2022</a>
+ <a href="./Relatórios/Sprint 1.md">SPRINT 1 - 24/09/2022</a>
 
  ### SPRINT 2
 
