@@ -45,16 +45,12 @@
 | 1 | 4 | Eu,como cliente,quero uma aba focada na parte de metodologia ágil| Wireframe | 4h | :white_check_mark:   | 4 |
 | 1 | 4 | Eu,como cliente,quero ver as etapas de desenvolvimento e planejamento do produto| Backlog   | 3h |:white_check_mark:   | 5 |
 | 2 | 5 | Eu,como cliente,quero um site que ensine os conceitos ágeis | Website   | 15h| :no_entry:           |7 |
-| 2 | 6 | Eu, como cliente,quero mecanismos que facilitem a navegação pelo site | Website   | 10h | :no_entry:           | 7 |
-| 3 | 7 | Eu, como cliente,quero uma organização no site que seja didática e direta| Website   | 2h | :no_entry:           | 90 |
-| 1 | 8 | Eu, como cliente,| Website   | 2h |:no_entry:            | 55 | 
-| 1 | 9 | Eu, como cliente | Website   | 2h |:no_entry:            | 60 |
-| 1 |10 | Eu, como cliente | Website   | 1h |:no_entry:            | 95 |
-| 1 |11 | Eu, como cliente | Website   | 5h |:no_entry:            | 80 |
-| 1 |12 | Eu, como cliente,| Website   | 5h |:no_entry:            | 85 |
-| 1 |13 | Eu, como cliente | Website   | 5h |:no_entry:            | 40 |
-| 1 |14 | Eu, como cliente,| Website   | 8h |:no_entry:            | 35 |
-| 1 |15 | Eu, como cliente,| Website   | 8h |:no_entry:            | 30 |
+| 2 | 6 | Eu,como cliente,quero mecanismos que facilitem a navegação pelo site | Website   | 10h | :no_entry:           | 7 |
+| 3 | 7 | Eu,como cliente,quero uma organização no site que seja didática e direta| Website   | 6h | :no_entry:           | 6 |
+| 3 | 8 | Eu,como cliente,quero um metodo avaliativo sobre o conteúdo| Website   | 7h |:no_entry:            | 6 | 
+| 3 | 9 | Eu,como cliente,quero ter as estatisticas das avaliações de forma geral no site | Website   | 4h |:no_entry:            | 4 |
+| 4 | 10 | Eu,como cliente, quero toda documentação do API organizada| Website   | 3h |:no_entry:            | 4 |
+| 4 | 11 | Eu,como cliente, quero ter uma experiencia coesa e funcional no site | Website   | 3h |:no_entry:            | 7 |
 
 
 ## Sprints
