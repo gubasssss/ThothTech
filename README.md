@@ -39,14 +39,14 @@
 
 | Sprint | Tarefas |  User Story   | Item |  Tempo Estimado   | Status   | Dificuldade | 
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
-| 1 | 1 | Eu, como cliente,quero um projeto návegalvel para ter uma visão inicial do site| Wireframe |10h | :white_check_mark:   | 7 |
-| 1 | 2 | Eu, como cliente,quero um menu dropdown que possa me dar acesso a diversas áreas do site | Wireframe | 6h | :white_check_mark:   | 5 |
-| 1 | 3 | Eu, como cliente,quero páginas focadas as funções do métodos ágeis (P.O,S.M e S.T)| Wireframe | 5h | :white_check_mark:   | 7 |
-| 1 | 4 | Eu, como cliente,quero uma aba focada na parte de metodologia ágil| Wireframe | 4h | :white_check_mark:   | 4 |
-| 1 | 4 | Eu, como cliente,| Backlog   | 3h | :white_check_mark:   | 50 |
-| 1 | 5 | Eu, como cliente,| Website   | 20h| :no_entry:           |100 |
-| 1 | 6 | Eu, como cliente,| Website   | 3h | :no_entry:           | 85 |
-| 1 | 7 | Eu, como cliente,| Website   | 2h | :no_entry:           | 90 |
+| 1 | 1 | Eu,como cliente,quero um projeto návegalvel para ter uma visão inicial do site| Wireframe |10h | :white_check_mark:   | 7 |
+| 1 | 2 | Eu,como cliente,quero um menu dropdown que possa me dar acesso a diversas áreas do site | Wireframe | 6h | :white_check_mark:| 5 |
+| 1 | 3 | Eu,como cliente,quero páginas focadas as funções do métodos ágeis (P.O,S.M e S.T)| Wireframe | 5h | :white_check_mark:   | 7 |
+| 1 | 4 | Eu,como cliente,quero uma aba focada na parte de metodologia ágil| Wireframe | 4h | :white_check_mark:   | 4 |
+| 1 | 4 | Eu,como cliente,quero ver as etapas de desenvolvimento e planejamento do produto| Backlog   | 3h |:white_check_mark:   | 5 |
+| 2 | 5 | Eu,como cliente,quero um site que ensine os conceitos ágeis | Website   | 15h| :no_entry:           |7 |
+| 2 | 6 | Eu, como cliente,quero mecanismos que facilitem a navegação pelo site | Website   | 10h | :no_entry:           | 7 |
+| 3 | 7 | Eu, como cliente,quero uma organização no site que seja didática e direta| Website   | 2h | :no_entry:           | 90 |
 | 1 | 8 | Eu, como cliente,| Website   | 2h |:no_entry:            | 55 | 
 | 1 | 9 | Eu, como cliente | Website   | 2h |:no_entry:            | 60 |
 | 1 |10 | Eu, como cliente | Website   | 1h |:no_entry:            | 95 |
