@@ -1,7 +1,6 @@
-# ThothTech 
-<span id="topo">
-<h1 align="center"> Thoth Tech - Scrum API  </h1>
+![gitthothtech](https://github.com/gubasssss/ThothTech/assets/143751785/8a017e66-ac88-4418-84a8-7ede5886ca25)
 
+<span id="topo">
 <p align="center">
     <a href="#visao"> Visão geral </a> | 
     <a href="#solucao">Solução proposta</a> |
