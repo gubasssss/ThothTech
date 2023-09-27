@@ -14,19 +14,24 @@
 
     
 </p>
-<h2 aling="center"> 🔍Visão geral </h2>
 <span id="visao">
+    
+<h2 aling="center"> 🔍Visão geral </h2>
+
    
  No mundo moderno em que vivemos é de suma importância que as empresas consigam ser dinamicas, eficientes e que seus funcionarios consigam acompanhar esse movimento. Por conta dessa realidade foi desenvolvido esse projeto junto a FATEC São José dos Campos - Prof. Jessen Vidal, onde a metodologia agil sera desenvolvida e aplicada. 
 
  
-
-<h2 aling="center">🎯Solução Proposta </h2>
 <span id="solucao">
+    
+<h2 aling="center">🎯Solução Proposta </h2>
+
  Seguindo a solicitação do nosso cliente desenvolvemos uma aplicação web, onde o objetivo principal é que as pessoas que a usem consigam entender e aplicar a metodologia ágil, em mais especifico o Scrum, seja no meio acadêmico dentro da fatec ou profissional em qualquer empresa que tenha o objetivo de atualizar seu processo de produção. 
 
+<span id="pj">
+    
 <h2 aling="center"> 🧩Planejamento das Sprints </h2>
- <span id="pj">
+ 
 
   <img src="https://github.com/gubasssss/ThothTech/assets/143751785/a29ea6ca-d4cd-4755-8c99-70db992d2202" alt="planejamento sprints"/>
 
@@ -52,9 +57,10 @@
 | 4 | 10 | Eu,como cliente, quero toda documentação do API organizada| Website   | 3h |:no_entry:            | 4 |
 | 4 | 11 | Eu,como cliente, quero ter uma experiencia coesa e funcional no site | Website   | 3h |:no_entry:            | 7 |
 
-
-## 🧷Sprints
 <span id="sprint">
+    
+## 🧷Sprints
+
 
  
  ### <a href="./Relatórios/Sprint 1.md">1️⃣SPRINT 1 - 24/09/2022</a>
@@ -66,9 +72,10 @@
  ### SPRINT 4
 
 
-
-<h2 aling="center"> 💻Tecnologias Utilizadas</h2>
 <span id="tecnologia">
+    
+<h2 aling="center"> 💻Tecnologias Utilizadas</h2>
+
 
 
 * <p>
@@ -96,7 +103,8 @@
    Python 
  </p>
 
-
+<span id="time">
+    
 ## 🎓TIME
 <span id="time">
 
