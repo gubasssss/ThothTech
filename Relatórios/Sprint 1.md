@@ -1,10 +1,10 @@
 <a href="../README.md">Voltar</a>
 
-# Relatório Sprint - 01 (24/09)
+# 📄Relatório Sprint - 01 (24/09)
 
 Nesta primeira Sprint o foco foi no desenvolvimento do wireframe para ter uma visão inicial do produto
 
-## Frontend
+## 🪄Frontend
 
 <ul>
   <li>Tela Home</li>
@@ -13,7 +13,7 @@ Nesta primeira Sprint o foco foi no desenvolvimento do wireframe para ter uma vi
   <li>Páginas das Funções Scrum (P.O,S.T,S.M)</li>
 </ul>
 
-<h2 aling="center"> Tecnologias Utilizadas na Primeira Sprint </h2>
+<h2 aling="center"> 💻Tecnologias Utilizadas na Primeira Sprint </h2>
 <span id="tecnologia">
 
 
@@ -28,17 +28,17 @@ Nesta primeira Sprint o foco foi no desenvolvimento do wireframe para ter uma vi
  </p>
 
 
-## Backlog da sprint
+## 📃Backlog da sprint
 <img align=center src="https://github.com/gubasssss/ThothTech/assets/143751785/4fe0048a-0456-47a8-ada3-4672f04cbbc5" alt="sprint1"/>
 
-## Burndown
+## 📈Burndown
 <img align=center src="https://github.com/gubasssss/ThothTech/assets/143751785/a5105b4a-c1f2-4d58-8290-b1914a5f08c6" alt="burndown"/>
 
-## Sprint Review
+## 👓Sprint Review
 
 https://github.com/gubasssss/ThothTech/assets/143751785/3f49fa2a-f7ad-4984-9b52-c2ce05867b8e
 
-## Trabalho desenvolvido
+## 👨‍💻Trabalho desenvolvido
 
 https://github.com/gubasssss/ThothTech/assets/143751785/eadbe980-7934-4b5a-8767-0d18733e901b
 
