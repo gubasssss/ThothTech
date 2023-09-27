@@ -14,18 +14,18 @@
 
     
 </p>
-<h2 aling="center"> Visão geral </h2>
+<h2 aling="center"> 🔍Visão geral </h2>
 <span id="visao">
    
  No mundo moderno em que vivemos é de suma importância que as empresas consigam ser dinamicas, eficientes e que seus funcionarios consigam acompanhar esse movimento. Por conta dessa realidade foi desenvolvido esse projeto junto a FATEC São José dos Campos - Prof. Jessen Vidal, onde a metodologia agil sera desenvolvida e aplicada. 
 
  
 
-<h2 aling="center"> Solução Proposta </h2>
+<h2 aling="center">🎯Solução Proposta </h2>
 <span id="solucao">
  Seguindo a solicitação do nosso cliente desenvolvemos uma aplicação web, onde o objetivo principal é que as pessoas que a usem consigam entender e aplicar a metodologia ágil, em mais especifico o Scrum, seja no meio acadêmico dentro da fatec ou profissional em qualquer empresa que tenha o objetivo de atualizar seu processo de produção. 
 
-<h2 aling="center"> Planejamento das Sprints </h2>
+<h2 aling="center"> 🧩Planejamento das Sprints </h2>
  <span id="pj">
 
   <img src="https://github.com/gubasssss/ThothTech/assets/143751785/a29ea6ca-d4cd-4755-8c99-70db992d2202" alt="planejamento sprints"/>
@@ -35,7 +35,7 @@
 <span id="backlog">
 
 
-<h2 aling="center"> Backlog do Produto </h2>
+<h2 aling="center">📃Backlog do Produto </h2>
 
 | Sprint | Tarefas |  User Story   | Item |  Tempo Estimado   | Status   | Dificuldade | 
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
@@ -53,11 +53,11 @@
 | 4 | 11 | Eu,como cliente, quero ter uma experiencia coesa e funcional no site | Website   | 3h |:no_entry:            | 7 |
 
 
-## Sprints
+## 🧷Sprints
 <span id="sprint">
 
  
- ### <a href="./Relatórios/Sprint 1.md">SPRINT 1 - 24/09/2022</a>
+ ### <a href="./Relatórios/Sprint 1.md">1️⃣SPRINT 1 - 24/09/2022</a>
 
  ### SPRINT 2
 
@@ -67,7 +67,7 @@
 
 
 
-<h2 aling="center"> Tecnologias Utilizadas</h2>
+<h2 aling="center"> 💻Tecnologias Utilizadas</h2>
 <span id="tecnologia">
 
 
@@ -97,7 +97,7 @@
  </p>
 
 
-## TIME
+## 🎓TIME
 <span id="time">
 
 
