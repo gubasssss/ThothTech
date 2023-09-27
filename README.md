@@ -8,7 +8,7 @@
     <a href="#backlog">Backlog</a> | 
     <a href="#sprint">Relatório das sprints</a> | 
     <a href="#tecnologia">Tecnologias utilizadas</a> | 
-    <a href="#time">Time</a> | 
+    | <a href="#time">Time</a> | 
 
 
     
