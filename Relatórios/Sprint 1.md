@@ -31,8 +31,6 @@ Nesta primeira Sprint o foco foi no desenvolvimento do wireframe para ter uma vi
 ## 📃Backlog da sprint
 <img align=center src="https://github.com/gubasssss/ThothTech/assets/143751785/4fe0048a-0456-47a8-ada3-4672f04cbbc5" alt="sprint1"/>
 
-## 📈Burndown
-<img align=center src="https://github.com/gubasssss/ThothTech/assets/143751785/a5105b4a-c1f2-4d58-8290-b1914a5f08c6" alt="burndown"/>
 
 ## 👓Sprint Review
 
