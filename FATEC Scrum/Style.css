@@ -36,7 +36,14 @@ body {
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
 }
-
+.retangulo2 {
+    margin-top: 50px;
+    width: 999px;
+    height: 370px;
+    background-color: #D9D9D9;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
 .quadrado {
     margin-top: 50px;
     width: 400px;
@@ -50,7 +57,13 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 22pt;
 }
-
+.Subtitulo {
+    padding: 50px; padding-top: 0;
+    padding-bottom: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 19pt;
+}
 .Texto {
     margin: 50px;
     font-size: 18pt;
