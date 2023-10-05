@@ -14,7 +14,7 @@ header {
 
 body {
     margin: 0px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
 }
 
 .bordaVerde {
@@ -57,6 +57,13 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 22pt;
 }
+.Rodapetitulo {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15pt;
+    ;
+}
 .Subtitulo {
     padding: 50px; padding-top: 0;
     padding-bottom: 0px;
@@ -67,4 +74,19 @@ body {
 .Texto {
     margin: 50px;
     font-size: 18pt;
+}
+.Rodapetexto {
+    text-align: center;
+    margin-left: 65px;
+    margin-right: 65px;
+
+    font-size: 12pt;
+    width: 150px;
+}
+.rodaperight {
+    text-align: right;
+    display: flex;
+}
+footer {
+    
 }
