@@ -20,6 +20,7 @@ body {
 .bordaVerde {
     background-color: #005C6E;
     border-color: #005C6E;
+    
     height: 40px;
 }
 
@@ -81,11 +82,28 @@ body {
     margin-right: 65px;
 
     font-size: 12pt;
-    width: 150px;
+    width: 170px;
 }
-.rodaperight {
-    text-align: right;
-    display: flex;
+.PORodape {
+    text-align: center;
+    display: block;
+    margin-left: 38px;
+    margin-top: 10px;
+}
+.ScrumRodape {
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    align-items: center;
+    margin-left: 280px;
+}
+.DevTeamRodape {
+    text-align: center;
+    display: block;
+    margin-right: 58px;
+    margin-top: 10px;
+    align-items: right;
+    margin-left: 280px;
 }
 footer {
     
