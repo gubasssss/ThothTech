@@ -94,7 +94,7 @@ body {
 .PORodape {
     text-align: center;
     display: block;
-    margin-left: 38px;
+    margin-left: 8px;
     margin-top: 10px;
 }
 .ScrumRodape {
@@ -102,7 +102,7 @@ body {
     display: block;
     margin-top: 10px;
     align-items: center;
-    margin-left: 280px;
+    margin-left: 25%;
 }
 .DevTeamRodape {
     text-align: center;
@@ -110,7 +110,7 @@ body {
     margin-right: 58px;
     margin-top: 10px;
     align-items: right;
-    margin-left: 280px;
+    margin-left: 25%;
 }
 footer {
 
