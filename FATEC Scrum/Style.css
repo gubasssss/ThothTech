@@ -38,6 +38,8 @@ body {
     border-bottom-right-radius: 40px;
 }
 .retangulo2 {
+    right: 0;
+    position: absolute;
     margin-top: 50px;
     width: 999px;
     height: 370px;
