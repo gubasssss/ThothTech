@@ -60,6 +60,15 @@ body {
     background-color: #D9D9D9;
     border-radius: 40px;
 }
+
+.retangulo3 {
+    margin-top: 50px;
+    width: 1300px;
+    height: 450px;
+    background-color: #D9D9D9;
+    border-radius: 40px;
+}
+
 .Titulo {
     padding: 50px;
     padding-bottom: 0px;
@@ -111,4 +120,16 @@ footer {
     width: 300px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 16pt;
+}
+
+.quadrado img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alinhaMeio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
