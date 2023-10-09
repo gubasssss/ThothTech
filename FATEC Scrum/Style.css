@@ -49,6 +49,13 @@ body {
     border-bottom-left-radius: 40px;
     margin-top: 50px;
 } 
+.retangulo3 {
+    margin-top: 60px;
+    width: 1300px;
+    height: 410px;
+    background-color: #D9D9D9;
+    border-radius: 40px;
+}
 .wrapper {
         display: flex;
         justify-content: flex-end;
