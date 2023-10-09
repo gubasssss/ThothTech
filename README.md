@@ -48,8 +48,8 @@
 | 1 | 3 | Eu,como cliente,quero páginas focadas as funções do métodos ágeis (P.O,S.M e S.T)| Wireframe | 5h | :white_check_mark:   | 7 |
 | 1 | 4 | Eu,como cliente,quero uma aba focada na parte de metodologia ágil| Wireframe | 4h | :white_check_mark:   | 4 |
 | 1 | 4 | Eu,como cliente,quero ver as etapas de desenvolvimento e planejamento do produto| Backlog   | 3h |:white_check_mark:   | 5 |
-| 2 | 5 | Eu,como cliente,quero um site que ensine os conceitos ágeis | Website   | 15h| :no_entry:           |7 |
-| 2 | 6 | Eu,como cliente,quero mecanismos que facilitem a navegação pelo site | Website   | 10h | :no_entry:           | 7 |
+| 2 | 5 | Eu,como cliente,quero um site que ensine os conceitos ágeis em HTML e CSS | Website   | 15h| :white_check_mark:           |9 |
+| 2 | 6 | Eu,como cliente,quero mecanismos que facilitem a navegação pelo site | Website   | 8h | :white_check_mark:           | 6 |
 | 3 | 7 | Eu,como cliente,quero uma organização no site que seja didática e direta| Website   | 6h | :no_entry:           | 6 |
 | 3 | 8 | Eu,como cliente,quero um metodo avaliativo sobre o conteúdo| Website   | 7h |:no_entry:            | 6 | 
 | 3 | 9 | Eu,como cliente,quero ter as estatisticas das avaliações de forma geral no site | Website   | 4h |:no_entry:            | 4 |
@@ -62,9 +62,9 @@
 
 
  
- ### <a href="./Relatórios/Sprint 1.md">1️⃣SPRINT 1 - 24/09/2022</a>
+ ### <a href="./Relatórios/Sprint 1.md">1️⃣SPRINT 1 - 24/09/2023</a>
 
- ### SPRINT 2
+ ### <a href="./Relatórios/Sprint 2.md">2️⃣SPRINT 2 - 15/10/2023</a>
 
  ### SPRINT 3
 
