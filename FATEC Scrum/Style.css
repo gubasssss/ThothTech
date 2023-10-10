@@ -129,12 +129,6 @@ footer {
     font-size: 16pt;
 }
 
-.quadrado img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .alinhaMeio {
     display: flex;
     justify-content: center;
