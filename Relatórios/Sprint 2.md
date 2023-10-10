@@ -31,6 +31,8 @@ Nesta segunda Sprint o foco foi no desenvolvimento do site em HTML e CSS para te
 
 
 ## 📃Backlog da sprint
+<img align=center src="https://github.com/gubasssss/ThothTech/assets/143751785/5b63409b-e918-4b41-a91b-d2072cdb01ba"/>
+
 
 
 ## 👓Sprint Review
