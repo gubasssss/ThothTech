@@ -32,7 +32,7 @@
 <h2 aling="center"> 🧩Planejamento das Sprints </h2>
  
 
-  <img src="https://github.com/gubasssss/ThothTech/assets/143751785/a29ea6ca-d4cd-4755-8c99-70db992d2202" alt="planejamento sprints"/>
+  <img src="https://github.com/gubasssss/ThothTech/assets/143751785/668b8a4a-2113-40a9-9455-8a4cb96ac31c"/>
 
     
 </p>
@@ -47,14 +47,15 @@
 | 1 | 2 | Eu,como cliente,quero um menu dropdown que possa me dar acesso a diversas áreas do site | Wireframe | 6h | :white_check_mark:| 5 |
 | 1 | 3 | Eu,como cliente,quero páginas focadas as funções do métodos ágeis (P.O,S.M e S.T)| Wireframe | 5h | :white_check_mark:   | 7 |
 | 1 | 4 | Eu,como cliente,quero uma aba focada na parte de metodologia ágil| Wireframe | 4h | :white_check_mark:   | 4 |
-| 1 | 4 | Eu,como cliente,quero ver as etapas de desenvolvimento e planejamento do produto| Backlog   | 3h |:white_check_mark:   | 5 |
-| 2 | 5 | Eu,como cliente,quero um site que ensine os conceitos ágeis | Website   | 15h| :no_entry:           |7 |
-| 2 | 6 | Eu,como cliente,quero mecanismos que facilitem a navegação pelo site | Website   | 10h | :no_entry:           | 7 |
-| 3 | 7 | Eu,como cliente,quero uma organização no site que seja didática e direta| Website   | 6h | :no_entry:           | 6 |
-| 3 | 8 | Eu,como cliente,quero um metodo avaliativo sobre o conteúdo| Website   | 7h |:no_entry:            | 6 | 
-| 3 | 9 | Eu,como cliente,quero ter as estatisticas das avaliações de forma geral no site | Website   | 4h |:no_entry:            | 4 |
-| 4 | 10 | Eu,como cliente, quero toda documentação do API organizada| Website   | 3h |:no_entry:            | 4 |
-| 4 | 11 | Eu,como cliente, quero ter uma experiencia coesa e funcional no site | Website   | 3h |:no_entry:            | 7 |
+| 1 | 5 | Eu,como cliente,quero ver as etapas de desenvolvimento e planejamento do produto| Backlog   | 3h |:white_check_mark:   | 5 |
+| 2 | 6 | Eu,como cliente,quero um site que ensine os conceitos ágeis em HTML e CSS | Website   | 15h| :white_check_mark:           |9 |
+| 2 | 7 | Eu,como cliente,quero um site que possua amplo conteúdo de métodos ágeis| Website | 8h| :no_entry: |5|
+| 3 | 8 | Eu,como cliente,quero mecanismos que facilitem a navegação pelo site | Website   | 8h | :no_entry:           | 6 |
+| 3 | 9 | Eu,como cliente,quero uma organização no site que seja didática e direta| Website   | 6h | :no_entry:           | 6 |
+| 3 | 10 | Eu,como cliente,quero um metodo avaliativo sobre o conteúdo| Website   | 7h |:no_entry:            | 6 | 
+| 3 | 11 | Eu,como cliente,quero ter as estatisticas das avaliações de forma geral no site | Website   | 4h |:no_entry:            | 4 |
+| 4 | 12 | Eu,como cliente, quero toda documentação do API organizada| Website   | 3h |:no_entry:            | 4 |
+| 4 | 13 | Eu,como cliente, quero ter uma experiencia coesa e funcional no site | Website   | 3h |:no_entry:            | 7 |
 
 <span id="sprint">
     
@@ -62,9 +63,9 @@
 
 
  
- ### <a href="./Relatórios/Sprint 1.md">1️⃣SPRINT 1 - 24/09/2022</a>
+ ### <a href="./Relatórios/Sprint 1.md">1️⃣SPRINT 1 - 24/09/2023</a>
 
- ### SPRINT 2
+ ### <a href="./Relatórios/Sprint 2.md">2️⃣SPRINT 2 - 15/10/2023</a>
 
  ### SPRINT 3
 
