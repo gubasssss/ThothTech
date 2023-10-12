@@ -67,7 +67,13 @@ body {
     background-color: #D9D9D9;
     border-radius: 40px;
 }
-
+.quadradorosa {
+    margin-top: 50px;
+    width: 400px;
+    height: 370px;
+    background-color: #FC5159;
+    border-radius: 40px;
+}
 .retangulo3 {
     margin-top: 50px;
     width: 1300px;
@@ -93,6 +99,13 @@ body {
  .Texto {
     margin: 50px;
     font-size: 18pt;
+}
+.TextoSublinhado{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20pt;
+    margin-top: 4%;
+    font-style:italic;
+    text-decoration: underline ;
 }
 
 .TextoLista {
@@ -133,6 +146,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
 }
 .linka {
     color: rgb(0, 0, 0);
