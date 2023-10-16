@@ -4,6 +4,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 5px 20px;
+    transition: .2s ease-in-out;
   }
 
 .imagem {
@@ -151,6 +152,9 @@ footer {
 .linka {
     color: rgb(0, 0, 0);
     font-size: 16pt;
-  background-color: transparent;
-  text-decoration: none;
+    background-color: transparent;
+    text-decoration: none;
+}
+.linka:hover{
+    color: rgb(34, 34, 245);
 }
