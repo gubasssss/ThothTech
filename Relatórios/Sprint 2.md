@@ -36,6 +36,8 @@ Nesta segunda Sprint o foco foi no desenvolvimento do site em HTML e CSS para te
 
 
 ## 👓Sprint Review
+[Apresentação Sprint 2](https://github.com/gubasssss/ThothTech/files/12911276/Apresentacao.Sprint.2.pptx)
+
 
 
 ## 👨‍💻Trabalho desenvolvido
