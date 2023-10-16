@@ -39,4 +39,5 @@ Nesta segunda Sprint o foco foi no desenvolvimento do site em HTML e CSS para te
 
 
 ## 👨‍💻Trabalho desenvolvido
+https://github.com/gubasssss/ThothTech/assets/143751785/8dcc6b78-050a-46e0-b548-e6ddf43ed407
 
