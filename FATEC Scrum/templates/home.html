@@ -1,30 +1,9 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+{% extends 'baserodape.html' %}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./Imagens/TS.png">
-    <link rel="stylesheet" type="text/css" href="./Style.css">
-    <title>FATEC Scrum</title>
-</head>
-
-<body>
-    <header>
-        <img src="./Imagens/FatecScrum.png" alt="cps" class="imagem" style="width: 235px; height: 75px;">
-            <a class="linka" href="Home.html">Home |</a>
-            <a class="linka" href="master.html">Scrum Master |</a>
-            <a class="linka" href="ProductOwner.html">Product Owner |</a>
-            <a class="linka" href="dev.html">Time Dev |</a>
-            <a class="linka" href="beneficios.html">Beneficios |</a>
-            <a class="linka" href="artefatos.html">Artefatos |</a>
-            <a class="linka" href="cerimonias.html">Cerimonias |</a>
-            <a class="linka" href="formulário.html">Formulário |</a>
-        <img src="./Imagens/cps.png" alt="cps" class="imagem" style="width: 130px; height: 100px;">
-    </header>
-
+{% block title %} Home {% endblock %}
+{% block content %}
     <main>
-        <img src="./Imagens/SCRUM.png" alt="cps" style="height: 700px; width: 100%; padding-bottom: 0px;">
+        <img src="{{ url_for('static', filename='IMG/SCRUM.png')}}" alt="cps" style="height: 700px; width: 100%; padding-bottom: 0px;">
 
         <hr class="bordaVerde" style="margin-top: -4px;">
 
@@ -38,7 +17,7 @@
                 </p>
             </div>
             <div class="quadrado" style="margin-right: 75px; text-align: center;">
-                <img src="Imagens/processo.png" alt="Img 2 Home" style="width: 330px; margin-top: 22px;">
+                <img src="{{ url_for('static', filename='IMG/processo.png')}}"" alt="Img 2 Home" style="width: 330px; margin-top: 22px;">
             </div>
         </span>
 
@@ -46,7 +25,7 @@
 
         <span class="gridContainer">
             <div class="quadrado" style="margin-top: 50px; margin-left: 75px;">
-                <img src="./Imagens/dip.png" alt="Setas do Scrum" style="margin-top: 25px; margin-left: 50px;">
+                <img src="{{ url_for('static', filename='IMG/dip.png')}}" alt="Setas do Scrum" style="margin-top: 25px; margin-left: 50px;">
             </div>
             <div class="retangulo2">
                 <p class="Titulo">
@@ -93,35 +72,8 @@
                 </ul>
             </div>
             <div class="quadrado" style="margin-top: 260px; margin-right: 75px;">
-                <img src="Imagens/team.png" alt="Img 3 Home" style="width: 330px; margin-top: 22px; margin-left: 33px;">
+                <img src="{{ url_for('static', filename='IMG/team.png')}}" alt="Img 3 Home" style="width: 330px; margin-top: 22px; margin-left: 33px;">
             </div>
         </span>
     </main>
-
-    <footer>
-        <div class="retangulo" style="border-radius: 0px; width: 100%; height: 310px; display: flex; justify-content: space-between; align-items: center; ">
-            <div class="imagem-texto">
-                <img src="Imagens/Product Owner Rodapé.png" alt="" class="footer-image">
-                <p>Product Owner (P.O.)</p>
-                <p style="font-size: 14pt;">
-                    Gerencia o backlog do produto e conecta a equipe de desenvolvimento com as solicitações de clientes
-                </p>
-            </div>
-            <div class="imagem-texto">
-                <img src="Imagens/Scrum Master Rodapé.png" alt="" class="footer-image">
-                <p>Scrum Master</p>
-                <p style="font-size: 14pt;">
-                    Líder da equipe, vai guiar o time pelas melhores práticas do Scrum. Faz a ponte entre o P.O e o time de dev.
-                </p>
-            </div>
-            <div class="imagem-texto">
-                <img src="Imagens/DevTeamRodape.png" alt="" class="footer-image">
-                <p>Developer Team</p>
-                <p style="font-size: 14pt;">
-                    A equipe de desenvolvimento. Profissionais que executam os incrementos no produto.
-                </p>
-            </div>
-        </div>
-    </footer>
-</body>
-</html>
+{% endblock %}
