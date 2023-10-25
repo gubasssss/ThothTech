@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Imagens/TS.png">
+    <link rel="stylesheet" href="{{ url_for('static', filename='Style.css')}}">
+    {% block tittle %} {% endblock %}
+</head>
+
+<body>
+    <header>
+        <img src="{{ url_for('static', filename='IMG/FatecScrum.png')}}" alt="cps" class="imagem" style="width: 235px; height: 75px;">
+            <a class="linka" href="/">Home |</a>
+            <a class="linka" href="/master">Scrum Master |</a>
+            <a class="linka" href="/productowner">Product Owner |</a>
+            <a class="linka" href="/dev">Time Dev |</a>
+            <a class="linka" href="/beneficios">Beneficios |</a>
+            <a class="linka" href="/artefatos">Artefatos |</a>
+            <a class="linka" href="/cerimonias">Cerimonias |</a>
+            <a class="linka" href="/formulário">Formulário |</a>
+        <img src="{{ url_for('static', filename='IMG/cps.png')}}" alt="cps" class="imagem" style="width: 130px; height: 100px;">
+    </header>
+    {% block content %}
+
+    {% endblock %}
+
+</body>
+</html>
