@@ -158,3 +158,10 @@ footer {
 .linka:hover{
     color: rgb(34, 34, 245);
 }
+.my-link {
+    text-decoration: none; /* Remove sublinhado do link */
+    color: #000;
+}
+.my-link:hover {
+    color: #00f;
+}
