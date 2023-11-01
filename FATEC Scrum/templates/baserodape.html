@@ -6,22 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./Imagens/TS.png">
     <link rel="stylesheet" href="{{ url_for('static', filename='Style.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap-5.3.2-dist/css/bootstrap.min.css')}}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
     {% block tittle %} {% endblock %}
 </head>
 
-<body>
-    <header>
-        <img src="{{ url_for('static', filename='IMG/FatecScrum.png')}}" alt="cps" class="imagem" style="width: 235px; height: 75px;">
-        <a class="linka" href="/">Home |</a>
-        <a class="linka" href="/master">Scrum Master |</a>
-        <a class="linka" href="/productowner">Product Owner |</a>
-        <a class="linka" href="/dev">Time Dev |</a>
-        <a class="linka" href="/beneficios">Beneficios |</a>
-        <a class="linka" href="/artefatos">Artefatos |</a>
-        <a class="linka" href="/cerimonias">Cerimonias |</a>
-        <a class="linka" href="/formulário">Formulário |</a>
-        <img src="{{ url_for('static', filename='IMG/cps.png')}}" alt="cps" class="imagem" style="width: 130px; height: 100px;">
-    </header>
+    <body>
+        <header>
+        
+            <div class="row">
+                <div class="col-md-12 ">
+                    <div class="dropdown-center custom-dropdown dropdown-menu-right "  style="left: 45.3%;margin-top: 19px; position: absolute;">
+                        <button class="btn btn-secondary dropdown-toggle custom-button " type="button" data-bs-toggle="dropdown"  aria-expanded="true" style="width: 85px; height: 50px; border-radius: 50px; left: 50%; position: relative; background-color: white; border: none;">
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Metodologia Ágil</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <h5 style="margin-left: 10.6%;text-decoration: underline;">Papéis Scrum</h5>
+                            <li><a class="dropdown-item" href="/master">Scrum Master</a></li>
+                            <li><a class="dropdown-item" href="/productowner">Product Owner</a></li>
+                            <li><a class="dropdown-item" href="/dev">Developer Team</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <h5 style="margin-left: 9.2%; text-decoration: underline;">Sobre o Scrum</h5>
+                            <li><a class="dropdown-item" href="/artefatos">Artefatos</a></li>
+                            <li><a class="dropdown-item" href="/beneficios">Benefícios</a></li>
+                            <li><a class="dropdown-item" href="/cerimonias">Cerimônias</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="/formulário" style="color: #FC5159;">Autoavaliação</a></li>
+                          </ul>
+                    </div>
+                </div>
+            </div>
+        
+            <a href="/" style="position: absolute">
+                <img src="{{ url_for('static', filename='IMG/FatecScrum.png')}}" alt="cps" class="imagem" style="width: 235px; height: 75px; left: 1; position: absolute; margin-top: -40px;">
+            </a>
+            <img src="{{ url_for('static', filename='IMG/cps.png')}}" alt="cps" class="imagem" style="width: 130px; height: 100px;">
+        </header>
 
     {% block content %}
 
@@ -30,6 +54,7 @@
 
     <footer>
         <div class="retangulo" style="border-radius: 0px; width: 100%; height: 310px; display: flex; justify-content: space-between; align-items: center; ">
+        <a href="/productowner" class="my-link">
             <div class="imagem-texto">
                 <img src="{{ url_for('static', filename='IMG/Product Owner Rodapé.png')}}" alt="" class="footer-image">
                 <p>Product Owner (P.O.)</p>
@@ -37,6 +62,8 @@
                     Gerencia o backlog do produto e conecta a equipe de desenvolvimento com as solicitações de clientes
                 </p>
             </div>
+        </a>
+        <a href="/master" class="my-link">
             <div class="imagem-texto">
                 <img src="{{ url_for('static', filename='IMG/Scrum Master Rodapé.png')}}" alt="" class="footer-image">
                 <p>Scrum Master</p>
@@ -44,6 +71,8 @@
                     Líder da equipe, vai guiar o time pelas melhores práticas do Scrum. Faz a ponte entre o P.O e o time de dev.
                 </p>
             </div>
+        </a>
+        <a href="/dev" class="my-link">
             <div class="imagem-texto">
                 <img src="{{ url_for('static', filename='IMG/DevTeamRodape.png')}}" alt="" class="footer-image">
                 <p>Developer Team</p>
@@ -51,6 +80,7 @@
                     A equipe de desenvolvimento. Profissionais que executam os incrementos no produto.
                 </p>
             </div>
+        </a>
         </div>
     </footer>
 </body>
