@@ -22,6 +22,7 @@ body {
     background-color: #005C6E;
     border-color: #005C6E;
     height: 40px;
+    opacity: 100;
 }
 
 .gridContainer {
@@ -163,5 +164,29 @@ footer {
     color: #000;
 }
 .my-link:hover {
-    color: #00f;
+    color: #005C6E;
 }
+.custom-dropdown .btn::after {
+    content: "\25BC";
+    color:#005C6E;
+    
+    border-left: 6px solid transparent; /* Tamanho horizontal da seta */
+    border-right: 6px solid transparent; /* Tamanho horizontal da seta */
+    border-top: 0px solid; /* Tamanho vertical da seta e cor da seta */
+    margin-right: 3px; /* Espaço entre o botão e a seta */
+    margin-top: 4px;
+}
+.submenu {
+    background-color: white; /* Cor de fundo do submenu */
+    border: 1px solid #ccc; /* Borda do submenu */
+    padding: 5px; /* Espaçamento interno do submenu */
+}
+  
+.submenu .dropdown-item {
+    color: #333; /* Cor do texto do submenu */
+}
+  
+.submenu .dropdown-item:hover {
+    background-color: #f0f0f0; /* Cor de fundo ao passar o mouse sobre os itens do submenu */
+}
+
