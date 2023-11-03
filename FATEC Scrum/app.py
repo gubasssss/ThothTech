@@ -35,9 +35,7 @@ def productowner():
 def cerimonias():
     return render_template('cerimonias.html')
 
-@app.route('/formulário')
-def formulário():
-    return render_template('formulário.html')
+
 
 class AvaliacaoForm(FlaskForm):
     scrum_carac1 = RadioField('Característica 1', choices=[('1', '1'), ('2', '2'), ('3', '3'), ('4', '4')],
@@ -69,7 +67,7 @@ class AvaliacaoForm(FlaskForm):
     dev_team_carac4 = RadioField('Característica 4', choices=[('1', '1'), ('2', '2'), ('3', '3'), ('4', '4')],
                              validators=[validators.InputRequired()])
 
-@app.route('/teste', methods=['GET', 'POST'])
+@app.route('/formulário', methods=['GET', 'POST'])
 def autoavaliacao():
     form = AvaliacaoForm(request.form)
     
@@ -98,7 +96,7 @@ def autoavaliacao():
                               dev_team_carac1, dev_team_carac2, dev_team_carac3, dev_team_carac4)
         return render_template('resultado.html', cargo=cargo, form=form)
     
-    return render_template('teste.html', form=form)
+    return render_template('formulário.html', form=form)
 
 def calcular_cargo(scrum_carac1, scrum_carac2, scrum_carac3, scrum_carac4, 
                    product_owner_carac1, product_owner_carac2, product_owner_carac3, product_owner_carac4, 

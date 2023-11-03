@@ -6,9 +6,18 @@
     
     <form method="POST" style=" margin-left: 24%;">
         {{ form.hidden_tag() }}
+
     <div class="retangulo" style =" border-radius: 40px; height: 500px; margin-top: 150px;display: flex;">
 
+
         <div class="retangulo quadradoform" style="background-color: #FC5159 ;">
+        
+            <div class="quadradorosa" style="width: 870px; height: 60px; margin-left: 1.7%; position: absolute; margin-top: -150px;">
+                <p class="Letra do Titul0 do Autoformulario" style=" margin-top: -5px; margin-left: 13%; font-size: 35pt; color: white; font-style: italic; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; ">
+                    Como um Developer eu possuo ...
+                </p>
+            </div>
+
         <ul class="list-unstyled " style="margin-left: -15.5%;">
         <li>
         <p class="TextoForm" style="margin-top: 5px;">Habilidade de trabalhar eficazmente em equipe e contribuir para o sucesso da equipe Scrum.</p></li>
@@ -35,6 +44,7 @@
             
             
             <tr>
+                <hr class="hrform2">
                 <td class="circle-rating">
                     <input type="radio" name="dev_team_carac1" value="1" id="dev_team_carac1_1">
                     <label for="dev_team_carac1_1"></label>
@@ -100,7 +110,13 @@
     </div>
         <form method="POST" style=" margin-left: 24%;">
             {{ form.hidden_tag() }}
-            <div class="retangulo" style =" border-radius: 40px; height: 500px;display: flex; margin-top: 150px">
+            <div class="retangulo" style =" border-radius: 40px; height: 500px;display: flex; margin-top: 250px">
+
+                <div class="quadradorosa" style="width: 900px; height: 60px; margin-left: 2.4%; position: absolute; margin-top: -90px; background-color: #005C6E;">
+                    <p class="Letra do Titul0 do Autoformulario" style=" margin-top: -5px; margin-left: 8%; font-size: 35pt; color: white; font-style: italic; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; ">
+                        Como um Product Owner eu possuo ...
+                    </p>
+                </div>
 
                 <div class="retangulo quadradoform" style="background-color: #005C6E ;">
                         <ul class="list-unstyled " style="margin-left: -15.5%;">
@@ -128,7 +144,7 @@
                 <table style="margin-top: 75px; ">
             
             <tr>
-                
+                <hr class="hrform2">
                 <td class="circle-rating">
                     <input type="radio" name="product_owner_carac1" value="1" id="product_owner_carac1_1">
                     <label for="product_owner_carac1_1"></label>
@@ -195,7 +211,13 @@
         </div>
         <form method="POST" style=" margin-left: 24%;">
             {{ form.hidden_tag() }}
-            <div class="retangulo" style =" border-radius: 40px; height: 500px; margin-top: 150px;display: flex; ">
+            <div class="retangulo" style =" border-radius: 40px; height: 500px; margin-top: 250px;display: flex; ">
+
+                <div class="quadradorosa" style="width: 900px; height: 60px; margin-left: 2.4%; position: absolute; margin-top: -90px; background-color:#C91414;">
+                    <p class="Letra do Titul0 do Autoformulario" style=" margin-top: -5px; margin-left: 9.5%; font-size: 35pt; color: white; font-style: italic; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; ">
+                        Como um Scrum Master eu possuo ...
+                    </p>
+                </div>
 
                 <div class="retangulo quadradoform" style="background-color: #C91414 ;">
                     <ul class="list-unstyled " style="margin-left: -15.5%;">
@@ -224,7 +246,7 @@
             
         
             <tr>
-               
+                <hr class="hrform2">
                 <td class="circle-rating">
                     <input type="radio" name="scrum_carac1" value="1" id="scrum_carac1_1">
                     <label for="scrum_carac1_1"></label>
@@ -291,9 +313,11 @@
             </div>
         </span>
         </div>
-        <div class="container" style=" margin: 100px;">
-        <button type="submit" style=" width: 10%; height: 40px;" >Enviar</button>
-        
+        <div class="container" style=" margin: 100px; margin-left: 160px;">
+            <div class="d-grid gap-2 col-6 " style="height: 50px;">
+                
+                <button class="btn btn-outline-success" type="submit">Submeter Autoavaliação >>></button>
+            </div>
         </div>
         <!-- Repita o mesmo bloco para Product Owner e Dev Team -->
        
