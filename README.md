@@ -50,10 +50,10 @@
 | 1 | 5 | Eu,como cliente,quero ver as etapas de desenvolvimento e planejamento do produto| Backlog   | 3h |:white_check_mark:   | 5 |
 | 2 | 6 | Eu,como cliente,quero um site que ensine os conceitos ágeis em HTML e CSS | Website   | 15h| :white_check_mark:           |9 |
 | 2 | 7 | Eu,como cliente,quero um site que possua amplo conteúdo de métodos ágeis| Website | 8h| :white_check_mark: |5|
-| 3 | 8 | Eu,como cliente,quero mecanismos que facilitem a navegação pelo site | Website   | 8h | :no_entry:           | 6 |
-| 3 | 9 | Eu,como cliente,quero uma organização no site que seja didática e direta| Website   | 6h | :no_entry:           | 6 |
-| 3 | 10 | Eu,como cliente,quero um metodo avaliativo sobre o conteúdo| Website   | 7h |:no_entry:            | 6 | 
-| 3 | 11 | Eu,como cliente,quero ter as estatisticas das avaliações de forma geral no site | Website   | 4h |:no_entry:            | 4 |
+| 3 | 8 | Eu,como cliente,quero mecanismos que facilitem a navegação pelo site | Website   | 6h | :white_check_mark:          | 7 |
+| 3 | 9 | Eu,como cliente,quero a implementação de um microframework| Website   | 8h | :white_check_mark:           | 8 |
+| 3 | 10 | Eu,como cliente,quero a implementação de Bootstrap,para estilização do site| Website   | 12h |:white_check_mark:          | 8 |
+| 3 | 11 | Eu,como cliente,quero um formulário avaliativo utilizando Python| Website   | 10h |:white_check_mark:          | 9 |
 | 4 | 12 | Eu,como cliente, quero toda documentação do API organizada| Website   | 3h |:no_entry:            | 4 |
 | 4 | 13 | Eu,como cliente, quero ter uma experiencia coesa e funcional no site | Website   | 3h |:no_entry:            | 7 |
 
