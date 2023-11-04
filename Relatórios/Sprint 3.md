@@ -2,19 +2,22 @@
 
 # 📄Relatório Sprint - 03 (05/11)
 
-Nesta terceira Sprint o foco foi na inclusão de Bootstrap para a estilização,Flaks e Python
+Nesta terceira Sprint o foco foi na inclusão de novas tecnologias ao site e à adição de novas funcionalidades ao site
 
 ## 🪄Frontend
 
 <ul>
-<li>Bootstrap</li>
+<li>Implementação do Bootstrap</li>
+<li>Componente Dropdown</li>
+<li>Formulário Avaliativo</li>
+<li>Novas Funcionalidades</li>
 </ul>
 
 ## ⌨️Backend
 
 <ul>
-<li>Flask</li>
-<li>Python</li>
+<li>Implementação do Flask</li>
+<li>Implementação de Python</li>
 </ul>
 
 <h2 aling="center"> 💻Tecnologias Utilizadas na Segunda Sprint </h2>
@@ -56,7 +59,8 @@ Nesta terceira Sprint o foco foi na inclusão de Bootstrap para a estilização,
 
 
 ## 📃Backlog da sprint
-=
+<img align=center src="https://github.com/gubasssss/ThothTech/assets/143751785/3c9d3614-8184-4f8f-8fa6-92853226799e"/>
+
 
 
 ## 👓Sprint Review
