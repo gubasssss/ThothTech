@@ -59,7 +59,7 @@ Nesta terceira Sprint o foco foi na inclusão de novas tecnologias ao site e à 
 
 
 ## 📃Backlog da sprint
-<img align=center src="https://github.com/gubasssss/ThothTech/assets/143751785/3c9d3614-8184-4f8f-8fa6-92853226799e"/>
+<img align=center src="https://github.com/gubasssss/ThothTech/assets/143751785/1bf6edb5-2a56-4fed-8446-98cfdc4b3536"/>
 
 
 
