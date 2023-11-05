@@ -3,325 +3,369 @@
 {% block title %} Teste {% endblock %}
 {% block content %}
 <main>
-    
+
     <form method="POST" style=" margin-left: 24%;">
         {{ form.hidden_tag() }}
 
-    <div class="retangulo" style =" border-radius: 40px; height: 500px; margin-top: 150px;display: flex;">
+        <div class="retangulo" style=" border-radius: 40px; height: 500px; margin-top: 150px;display: flex;">
 
 
-        <div class="retangulo quadradoform" style="background-color: #FC5159 ;">
-        
-            <div class="quadradorosa" style="width: 870px; height: 60px; margin-left: 1.7%; position: absolute; margin-top: -150px;">
-                <p class="Letra do Titul0 do Autoformulario" style=" margin-top: -5px; margin-left: 13%; font-size: 35pt; color: white; font-style: italic; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; ">
-                    Como um Developer eu possuo ...
-                </p>
+            <div class="retangulo quadradoform" style="background-color: #FC5159 ;">
+
+                <div class="quadradorosa"
+                    style="width: 870px; height: 60px; margin-left: 1.7%; position: absolute; margin-top: -150px;">
+                    <p class="Letra do Titul0 do Autoformulario"
+                        style=" margin-top: -5px; margin-left: 13%; font-size: 35pt; color: white; font-style: italic; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; ">
+                        Como um Developer eu possuo ...
+                    </p>
+                </div>
+
+                <ul class="list-unstyled " style="margin-left: -15.5%;">
+                    <li>
+                        <p class="TextoForm" style="margin-top: 5px;">Habilidade de trabalhar eficazmente em equipe e
+                            contribuir para o sucesso da equipe Scrum.</p>
+                    </li>
+                    <hr class="hrform1">
+                    <li>
+                        <p class="TextoForm">Capacidade de compreender e abordar os requisitos de forma eficaz.</p>
+                    </li>
+                    <hr class="hrform1">
+                    <li>
+                        <p class="TextoForm">Compromisso com a entrega de funcionalidades de alta qualidade.</p>
+                    </li>
+                    <hr class="hrform1">
+                    <li>
+                        <p class="TextoForm" style="font-size: 14pt; margin-top: -10px; ">Contribuição para a cultura de
+                            aprendizado contínuo e compartilhamento de conhecimento dentro da equipe.</p>
+                    </li>
+                </ul>
             </div>
 
-        <ul class="list-unstyled " style="margin-left: -15.5%;">
-        <li>
-        <p class="TextoForm" style="margin-top: 5px;">Habilidade de trabalhar eficazmente em equipe e contribuir para o sucesso da equipe Scrum.</p></li>
-        <hr class="hrform1">
-        <li>
-        <p class="TextoForm" >Capacidade de compreender e abordar os requisitos de forma eficaz.</p></li>
-        <hr class="hrform1">
-        <li>
-        <p class="TextoForm">Compromisso com a entrega de funcionalidades de alta qualidade.</p></li>
-        <hr class="hrform1">
-        <li>
-        <p class="TextoForm" style="font-size: 14pt; margin-top: -10px; ">Contribuição para a cultura de aprendizado contínuo e compartilhamento de conhecimento dentro da equipe.</p></li>
-        </ul>
+            <span class="container" style="width: auto;">
+                <div class="retangulo quadradoform2" style="background-color: #FC5159;">
+                    <h3 style="position: absolute; color: white; margin-left: 12%; margin-top: 5px;">1</h3>
+                    <h3 style="position: absolute; color: white;margin-left: 36%; margin-top: 5px;">2</h3>
+                    <h3 style="position: absolute; color: white;margin-left: 60%; margin-top: 5px;">3</h3>
+                    <h3 style="position: absolute; color: white;margin-left: 84%; margin-top: 5px;">4</h3>
+
+                    <table style="margin-top: 75px; ">
+
+
+                        <tr>
+                            <hr class="hrform2">
+                            <td class="circle-rating">
+                                <input type="radio" name="dev_team_carac1" value="1" id="dev_team_carac1_1">
+                                <label for="dev_team_carac1_1"></label>
+                                <input type="radio" name="dev_team_carac1" value="2" id="dev_team_carac1_2">
+                                <label for="dev_team_carac1_2"></label>
+                                <input type="radio" name="dev_team_carac1" value="3" id="dev_team_carac1_3">
+                                <label for="dev_team_carac1_3"></label>
+                                <input type="radio" name="dev_team_carac1" value="4" id="dev_team_carac1_4">
+                                <label for="dev_team_carac1_4"></label>
+                            </td>
+                        </tr>
+
+                        <div class="vertical-line1" style="margin-left: 25%;"></div>
+
+                        <tr>
+
+                            <td class="circle-rating">
+                                <input type="radio" name="dev_team_carac2" value="1" id="dev_team_carac2_1">
+                                <label for="dev_team_carac2_1"></label>
+                                <input type="radio" name="dev_team_carac2" value="2" id="dev_team_carac2_2">
+                                <label for="dev_team_carac2_2"></label>
+                                <input type="radio" name="dev_team_carac2" value="3" id="dev_team_carac2_3">
+                                <label for="dev_team_carac2_3"></label>
+                                <input type="radio" name="dev_team_carac2" value="4" id="dev_team_carac2_4">
+                                <label for="dev_team_carac2_4"></label>
+                            </td>
+                        </tr>
+
+                        <div class="vertical-line1" style="margin-left: 50%;"></div>
+
+                        <tr>
+
+                            <td class="circle-rating">
+                                <input type="radio" name="dev_team_carac3" value="1" id="dev_team_carac3_1">
+                                <label for="dev_team_carac3_1"></label>
+                                <input type="radio" name="dev_team_carac3" value="2" id="dev_team_carac3_2">
+                                <label for="dev_team_carac3_2"></label>
+                                <input type="radio" name="dev_team_carac3" value="3" id="dev_team_carac3_3">
+                                <label for="dev_team_carac3_3"></label>
+                                <input type="radio" name="dev_team_carac3" value="4" id="dev_team_carac3_4">
+                                <label for="dev_team_carac3_4"></label>
+                            </td>
+                        </tr>
+
+                        <div class="vertical-line1" style="margin-left: 75%;"></div>
+
+                        <tr>
+                            <td class="circle-rating">
+                                <input type="radio" name="dev_team_carac4" value="1" id="dev_team_carac4_1">
+                                <label for="dev_team_carac4_1"></label>
+                                <input type="radio" name="dev_team_carac4" value="2" id="dev_team_carac4_2">
+                                <label for="dev_team_carac4_2"></label>
+                                <input type="radio" name="dev_team_carac4" value="3" id="dev_team_carac4_3">
+                                <label for="dev_team_carac4_3"></label>
+                                <input type="radio" name="dev_team_carac4" value="4" id="dev_team_carac4_4">
+                                <label for="dev_team_carac4_4"></label>
+                            </td>
+                        </tr>
+
+                    </table>
+                </div>
+            </span>
         </div>
-
-        <span class="container" style="width: auto;">
-            <div class="retangulo quadradoform2" style= "background-color: #FC5159;">
-            <h3 style="position: absolute; color: white; margin-left: 12%; margin-top: 5px;">1</h3>
-            <h3 style="position: absolute; color: white;margin-left: 36%; margin-top: 5px;">2</h3>
-            <h3 style="position: absolute; color: white;margin-left: 60%; margin-top: 5px;">3</h3>
-            <h3 style="position: absolute; color: white;margin-left: 84%; margin-top: 5px;">4</h3>
-
-        <table style="margin-top: 75px; ">
-            
-            
-            <tr>
-                <hr class="hrform2">
-                <td class="circle-rating">
-                    <input type="radio" name="dev_team_carac1" value="1" id="dev_team_carac1_1">
-                    <label for="dev_team_carac1_1"></label>
-                    <input type="radio" name="dev_team_carac1" value="2" id="dev_team_carac1_2">
-                    <label for="dev_team_carac1_2"></label>
-                    <input type="radio" name="dev_team_carac1" value="3" id="dev_team_carac1_3">
-                    <label for="dev_team_carac1_3"></label>
-                    <input type="radio" name="dev_team_carac1" value="4" id="dev_team_carac1_4">
-                    <label for="dev_team_carac1_4"></label>
-                </td>
-            </tr>
-
-            <div class="vertical-line1" style="margin-left: 25%;"></div>
-
-            <tr>
-
-            <td class="circle-rating">
-                <input type="radio" name="dev_team_carac2" value="1" id="dev_team_carac2_1">
-                <label for="dev_team_carac2_1"></label>
-                <input type="radio" name="dev_team_carac2" value="2" id="dev_team_carac2_2">
-                <label for="dev_team_carac2_2"></label>
-                <input type="radio" name="dev_team_carac2" value="3" id="dev_team_carac2_3">
-                <label for="dev_team_carac2_3"></label>
-                <input type="radio" name="dev_team_carac2" value="4" id="dev_team_carac2_4">
-                <label for="dev_team_carac2_4"></label>
-            </td>
-            </tr>
-
-            <div class="vertical-line1" style="margin-left: 50%;"></div>
-
-            <tr>
-
-            <td class="circle-rating">
-                <input type="radio" name="dev_team_carac3" value="1" id="dev_team_carac3_1">
-                <label for="dev_team_carac3_1"></label>
-                <input type= "radio" name="dev_team_carac3" value="2" id="dev_team_carac3_2">
-                <label for="dev_team_carac3_2"></label>
-                <input type="radio" name="dev_team_carac3" value="3" id="dev_team_carac3_3">
-                <label for="dev_team_carac3_3"></label>
-                <input type="radio" name="dev_team_carac3" value="4" id="dev_team_carac3_4">
-                <label for="dev_team_carac3_4"></label>
-            </td>
-            </tr>
-
-            <div class="vertical-line1" style="margin-left: 75%;"></div>
-
-            <tr>
-            <td class="circle-rating">
-                <input type="radio" name="dev_team_carac4" value="1" id="dev_team_carac4_1">
-                <label for="dev_team_carac4_1"></label>
-                <input type="radio" name="dev_team_carac4" value="2" id="dev_team_carac4_2">
-                <label for="dev_team_carac4_2"></label>
-                <input type="radio" name="dev_team_carac4" value="3" id="dev_team_carac4_3">
-                <label for="dev_team_carac4_3"></label>
-                <input type="radio" name="dev_team_carac4" value="4" id="dev_team_carac4_4">
-                <label for="dev_team_carac4_4"></label>
-            </td>
-            </tr>
-            
-        </table>
-        </div>
-        </span>
-    </div>
         <form method="POST" style=" margin-left: 24%;">
             {{ form.hidden_tag() }}
-            <div class="retangulo" style =" border-radius: 40px; height: 500px;display: flex; margin-top: 250px">
+            <div class="retangulo" style=" border-radius: 40px; height: 500px;display: flex; margin-top: 250px">
 
-                <div class="quadradorosa" style="width: 900px; height: 60px; margin-left: 2.4%; position: absolute; margin-top: -90px; background-color: #005C6E;">
-                    <p class="Letra do Titul0 do Autoformulario" style=" margin-top: -5px; margin-left: 8%; font-size: 35pt; color: white; font-style: italic; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; ">
+                <div class="quadradorosa"
+                    style="width: 900px; height: 60px; margin-left: 2.4%; position: absolute; margin-top: -90px; background-color: #005C6E;">
+                    <p class="Letra do Titul0 do Autoformulario"
+                        style=" margin-top: -5px; margin-left: 8%; font-size: 35pt; color: white; font-style: italic; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; ">
                         Como um Product Owner eu possuo ...
                     </p>
                 </div>
 
                 <div class="retangulo quadradoform" style="background-color: #005C6E ;">
-                        <ul class="list-unstyled " style="margin-left: -15.5%;">
-                        <li>
-                        <p class="TextoForm" style="margin-top: 10px;">Capacidade de priorizar adequadamente as funcionalidades no backlog do produto.</p></li>
-                        <hr class="hrform1">
-                        <li>
-                        <p class="TextoForm"style="font-size: 14pt; margin-top: -10px; ">Habilidade de compreender e comunicar eficazmente as necessidades dos stakeholders.</p></li>
-                        <hr class="hrform1">
-                        <li>
-                        <p class="TextoForm"style="font-size: 14pt; margin-top: -10px; ">Tomada de decisões orientadas por valor de negócios e necessidades do cliente.</p></li>
-                        <hr class="hrform1">
-                        <li>
-                        <p class="TextoForm" style="font-size: 14pt; margin-top: -10px; ">Colaboração eficaz com a equipe de desenvolvimento para garantir a entrega de valor.</p></li>
-                        </ul>
-                </div>
-
-            <span class="container" style="width: auto;">
-                    <div class="retangulo quadradoform2" style= "background-color: #005C6E;">
-                    <h3 style="position: absolute; color: white; margin-left: 12%; margin-top: 5px;">1</h3>
-                    <h3 style="position: absolute; color: white;margin-left: 36%; margin-top: 5px;">2</h3>
-                    <h3 style="position: absolute; color: white;margin-left: 60%; margin-top: 5px;">3</h3>
-                    <h3 style="position: absolute; color: white;margin-left: 84%; margin-top: 5px;">4</h3>
-            
-                <table style="margin-top: 75px; ">
-            
-            <tr>
-                <hr class="hrform2">
-                <td class="circle-rating">
-                    <input type="radio" name="product_owner_carac1" value="1" id="product_owner_carac1_1">
-                    <label for="product_owner_carac1_1"></label>
-                    <input type="radio" name="product_owner_carac1" value="2" id="product_owner_carac1_2">
-                    <label for="product_owner_carac1_2"></label>
-                    <input type="radio" name="product_owner_carac1" value="3" id="product_owner_carac1_3">
-                    <label for="product_owner_carac1_3"></label>
-                    <input type="radio" name="product_owner_carac1" value="4" id="product_owner_carac1_4">
-                    <label for="product_owner_carac1_4"></label>
-                </td>
-            </tr>
-
-            <div class="vertical-line1" style="margin-left: 25%;"></div>
-
-            <tr>
-                
-                <td class="circle-rating">
-                    <input type="radio" name="product_owner_carac2" value="1" id="product_owner_carac2_1">
-                    <label for="product_owner_carac2_1"></label>
-                    <input type="radio" name="product_owner_carac2" value="2" id="product_owner_carac2_2">
-                    <label for="product_owner_carac2_2"></label>
-                    <input type="radio" name="product_owner_carac2" value="3" id="product_owner_carac2_3">
-                    <label for="product_owner_carac2_3"></label>
-                    <input type="radio" name="product_owner_carac2" value="4" id="product_owner_carac2_4">
-                    <label for="product_owner_carac2_4"></label>
-                </td>
-            </tr>
-
-            <div class="vertical-line1" style="margin-left: 50%;"></div>
-
-            <tr>
-                
-                <td class="circle-rating">
-                    <input type="radio" name="product_owner_carac3" value="1" id="product_owner_carac3_1">
-                    <label for="product_owner_carac3_1"></label>
-                    <input type="radio" name="product_owner_carac3" value="2" id="product_owner_carac3_2">
-                    <label for="product_owner_carac3_2"></label>
-                    <input type="radio" name="product_owner_carac3" value="3" id="product_owner_carac3_3">
-                    <label for="product_owner_carac3_3"></label>
-                    <input type="radio" name="product_owner_carac3" value="4" id="product_owner_carac3_4">
-                    <label for="product_owner_carac3_4"></label>
-                </td>
-            </tr>
-
-            <div class="vertical-line1" style="margin-left: 75%;"></div>
-
-            <tr>
-                
-                <td class="circle-rating">
-                    <input type="radio" name="product_owner_carac4" value="1" id="product_owner_carac4_1">
-                    <label for="product_owner_carac4_1"></label>
-                    <input type="radio" name="product_owner_carac4" value="2" id="product_owner_carac4_2">
-                    <label for="product_owner_carac4_2"></label>
-                    <input type="radio" name="product_owner_carac4" value="3" id="product_owner_carac4_3">
-                    <label for="product_owner_carac4_3"></label>
-                    <input type="radio" name="product_owner_carac4" value="4" id="product_owner_carac4_4">
-                    <label for="product_owner_carac4_4"></label>
-                </td>
-            </tr>
-         
-        </table>
-            </div>
-        </span>
-        </div>
-        <form method="POST" style=" margin-left: 24%;">
-            {{ form.hidden_tag() }}
-            <div class="retangulo" style =" border-radius: 40px; height: 500px; margin-top: 250px;display: flex; ">
-
-                <div class="quadradorosa" style="width: 900px; height: 60px; margin-left: 2.4%; position: absolute; margin-top: -90px; background-color:#C91414;">
-                    <p class="Letra do Titul0 do Autoformulario" style=" margin-top: -5px; margin-left: 9.5%; font-size: 35pt; color: white; font-style: italic; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; ">
-                        Como um Scrum Master eu possuo ...
-                    </p>
-                </div>
-
-                <div class="retangulo quadradoform" style="background-color: #C91414 ;">
                     <ul class="list-unstyled " style="margin-left: -15.5%;">
-                    <li>
-                    <p class="TextoForm" style="margin-top: 12px;">Facilitação das atividades e reuniões da equipe Scrum.</p></li>
-                    <hr class="hrform1">
-                    <li>
-                    <p class="TextoForm" style="margin-top: 22px; margin-bottom: 22px;">Capacidade de identificar e remover obstáculos para a equipe Scrum.</p></li>
-                    <hr class="hrform1">
-                    <li>
-                    <p class="TextoForm" style="margin-top: 22px;margin-bottom: 22px;">Fomento da comunicação e colaboração eficazes na equipe Scrum.</p></li>
-                    <hr class="hrform1">
-                    <li>
-                    <p class="TextoForm" style="font-size: 14pt; margin-top: 10px; ">Comprometimento com a melhoria contínua das práticas Scrum na equipe.</p></li>
+                        <li>
+                            <p class="TextoForm" style="margin-top: 10px;">Capacidade de priorizar adequadamente as
+                                funcionalidades no backlog do produto.</p>
+                        </li>
+                        <hr class="hrform1">
+                        <li>
+                            <p class="TextoForm" style="font-size: 14pt; margin-top: -10px; ">Habilidade de compreender
+                                e comunicar eficazmente as necessidades dos stakeholders.</p>
+                        </li>
+                        <hr class="hrform1">
+                        <li>
+                            <p class="TextoForm" style="font-size: 14pt; margin-top: -10px; ">Tomada de decisões
+                                orientadas por valor de negócios e necessidades do cliente.</p>
+                        </li>
+                        <hr class="hrform1">
+                        <li>
+                            <p class="TextoForm" style="font-size: 14pt; margin-top: -10px; ">Colaboração eficaz com a
+                                equipe de desenvolvimento para garantir a entrega de valor.</p>
+                        </li>
                     </ul>
                 </div>
-            
-            <span class="container" style="width: auto;">
-                <div class="retangulo quadradoform2" style= "background-color: #C91414;">
-                <h3 style="position: absolute; color: white; margin-left: 12%; margin-top: 5px;">1</h3>
-                <h3 style="position: absolute; color: white;margin-left: 36%; margin-top: 5px;">2</h3>
-                <h3 style="position: absolute; color: white;margin-left: 60%; margin-top: 5px;">3</h3>
-                <h3 style="position: absolute; color: white;margin-left: 84%; margin-top: 5px;">4</h3>
 
-            <table style="margin-top: 75px; ">
-            
-        
-            <tr>
-                <hr class="hrform2">
-                <td class="circle-rating">
-                    <input type="radio" name="scrum_carac1" value="1" id="scrum_carac1_1">
-                    <label for="scrum_carac1_1"></label>
-                    <input type="radio" name="scrum_carac1" value="2" id="scrum_carac1_2">
-                    <label for="scrum_carac1_2"></label>
-                    <input type="radio" name="scrum_carac1" value="3" id="scrum_carac1_3">
-                    <label for="scrum_carac1_3"></label>
-                    <input type="radio" name="scrum_carac1" value="4" id="scrum_carac1_4">
-                    <label for="scrum_carac1_4"></label>
+                <span class="container" style="width: auto;">
+                    <div class="retangulo quadradoform2" style="background-color: #005C6E;">
+                        <h3 style="position: absolute; color: white; margin-left: 12%; margin-top: 5px;">1</h3>
+                        <h3 style="position: absolute; color: white;margin-left: 36%; margin-top: 5px;">2</h3>
+                        <h3 style="position: absolute; color: white;margin-left: 60%; margin-top: 5px;">3</h3>
+                        <h3 style="position: absolute; color: white;margin-left: 84%; margin-top: 5px;">4</h3>
 
-                </td>
-            </tr>
+                        <table style="margin-top: 75px; ">
 
-            <div class="vertical-line1" style="margin-left: 25%;"></div>
+                            <tr>
+                                <hr class="hrform2">
+                                <td class="circle-rating">
+                                    <input type="radio" name="product_owner_carac1" value="1"
+                                        id="product_owner_carac1_1">
+                                    <label for="product_owner_carac1_1"></label>
+                                    <input type="radio" name="product_owner_carac1" value="2"
+                                        id="product_owner_carac1_2">
+                                    <label for="product_owner_carac1_2"></label>
+                                    <input type="radio" name="product_owner_carac1" value="3"
+                                        id="product_owner_carac1_3">
+                                    <label for="product_owner_carac1_3"></label>
+                                    <input type="radio" name="product_owner_carac1" value="4"
+                                        id="product_owner_carac1_4">
+                                    <label for="product_owner_carac1_4"></label>
+                                </td>
+                            </tr>
 
-            <tr>
-                
-                <td class="circle-rating">
-                    <input type="radio" name="scrum_carac2" value="1" id="scrum_carac2_1">
-                    <label for="scrum_carac2_1"></label>
-                    <input type="radio" name="scrum_carac2" value="2" id="scrum_carac2_2">
-                    <label for="scrum_carac2_2"></label>
-                    <input type="radio" name="scrum_carac2" value="3" id="scrum_carac2_3">
-                    <label for="scrum_carac2_3"></label>
-                    <input type="radio" name="scrum_carac2" value="4" id="scrum_carac2_4">
-                    <label for="scrum_carac2_4"></label>
-                </td>
-            </tr>
+                            <div class="vertical-line1" style="margin-left: 25%;"></div>
 
-            <div class="vertical-line1" style="margin-left: 50%;"></div>
+                            <tr>
 
-            <tr>
-                
-                <td class="circle-rating">
-                    <input type="radio" name="scrum_carac3" value="1" id="scrum_carac3_1">
-                    <label for="scrum_carac3_1"></label>
-                    <input type="radio" name="scrum_carac3" value="2" id="scrum_carac3_2">
-                    <label for="scrum_carac3_2"></label>
-                    <input type=radio name="scrum_carac3" value="3" id="scrum_carac3_3">
-                    <label for="scrum_carac3_3"></label>
-                    <input type="radio" name="scrum_carac3" value="4" id="scrum_carac3_4">
-                    <label for="scrum_carac3_4"></label>
-                </td>
-            </tr>
+                                <td class="circle-rating">
+                                    <input type="radio" name="product_owner_carac2" value="1"
+                                        id="product_owner_carac2_1">
+                                    <label for="product_owner_carac2_1"></label>
+                                    <input type="radio" name="product_owner_carac2" value="2"
+                                        id="product_owner_carac2_2">
+                                    <label for="product_owner_carac2_2"></label>
+                                    <input type="radio" name="product_owner_carac2" value="3"
+                                        id="product_owner_carac2_3">
+                                    <label for="product_owner_carac2_3"></label>
+                                    <input type="radio" name="product_owner_carac2" value="4"
+                                        id="product_owner_carac2_4">
+                                    <label for="product_owner_carac2_4"></label>
+                                </td>
+                            </tr>
 
-            <div class="vertical-line1" style="margin-left: 75%;"></div>
+                            <div class="vertical-line1" style="margin-left: 50%;"></div>
 
-            <tr>
-                
-                <td class="circle-rating">
-                    <input type="radio" name="scrum_carac4" value="1" id="scrum_carac4_1">
-                    <label for="scrum_carac4_1"></label>
-                    <input type="radio" name="scrum_carac4" value="2" id="scrum_carac4_2">
-                    <label for="scrum_carac4_2"></label>
-                    <input type="radio" name="scrum_carac4" value="3" id="scrum_carac4_3">
-                    <label for="scrum_carac4_3"></label>
-                    <input type="radio" name="scrum_carac4" value="4" id="scrum_carac4_4">
-                    <label for="scrum_carac4_4"></label>
-                </td>
-            </tr>          
-            <!-- Repita para outras características do Scrum Master -->
-            
-        </table>
+                            <tr>
+
+                                <td class="circle-rating">
+                                    <input type="radio" name="product_owner_carac3" value="1"
+                                        id="product_owner_carac3_1">
+                                    <label for="product_owner_carac3_1"></label>
+                                    <input type="radio" name="product_owner_carac3" value="2"
+                                        id="product_owner_carac3_2">
+                                    <label for="product_owner_carac3_2"></label>
+                                    <input type="radio" name="product_owner_carac3" value="3"
+                                        id="product_owner_carac3_3">
+                                    <label for="product_owner_carac3_3"></label>
+                                    <input type="radio" name="product_owner_carac3" value="4"
+                                        id="product_owner_carac3_4">
+                                    <label for="product_owner_carac3_4"></label>
+                                </td>
+                            </tr>
+
+                            <div class="vertical-line1" style="margin-left: 75%;"></div>
+
+                            <tr>
+
+                                <td class="circle-rating">
+                                    <input type="radio" name="product_owner_carac4" value="1"
+                                        id="product_owner_carac4_1">
+                                    <label for="product_owner_carac4_1"></label>
+                                    <input type="radio" name="product_owner_carac4" value="2"
+                                        id="product_owner_carac4_2">
+                                    <label for="product_owner_carac4_2"></label>
+                                    <input type="radio" name="product_owner_carac4" value="3"
+                                        id="product_owner_carac4_3">
+                                    <label for="product_owner_carac4_3"></label>
+                                    <input type="radio" name="product_owner_carac4" value="4"
+                                        id="product_owner_carac4_4">
+                                    <label for="product_owner_carac4_4"></label>
+                                </td>
+                            </tr>
+
+                        </table>
+                    </div>
+                </span>
             </div>
-        </span>
-        </div>
-        <div class="container" style=" margin: 100px; margin-left: 160px;">
-            <div class="d-grid gap-2 col-6 " style="height: 50px;">
-                
-                <button class="btn btn-outline-success" type="submit">Submeter Autoavaliação >>></button>
-            </div>
-        </div>
-        <!-- Repita o mesmo bloco para Product Owner e Dev Team -->
-       
-    </form>
+            <form method="POST" style=" margin-left: 24%;">
+                {{ form.hidden_tag() }}
+                <div class="retangulo" style=" border-radius: 40px; height: 500px; margin-top: 250px;display: flex; ">
+
+                    <div class="quadradorosa"
+                        style="width: 900px; height: 60px; margin-left: 2.4%; position: absolute; margin-top: -90px; background-color:#C91414;">
+                        <p class="Letra do Titul0 do Autoformulario"
+                            style=" margin-top: -5px; margin-left: 9.5%; font-size: 35pt; color: white; font-style: italic; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; ">
+                            Como um Scrum Master eu possuo ...
+                        </p>
+                    </div>
+
+                    <div class="retangulo quadradoform" style="background-color: #C91414 ;">
+                        <ul class="list-unstyled " style="margin-left: -15.5%;">
+                            <li>
+                                <p class="TextoForm" style="margin-top: 12px;">Facilitação das atividades e reuniões da
+                                    equipe Scrum.</p>
+                            </li>
+                            <hr class="hrform1">
+                            <li>
+                                <p class="TextoForm" style="margin-top: 22px; margin-bottom: 22px;">Capacidade de
+                                    identificar e remover obstáculos para a equipe Scrum.</p>
+                            </li>
+                            <hr class="hrform1">
+                            <li>
+                                <p class="TextoForm" style="margin-top: 22px;margin-bottom: 22px;">Fomento da
+                                    comunicação e colaboração eficazes na equipe Scrum.</p>
+                            </li>
+                            <hr class="hrform1">
+                            <li>
+                                <p class="TextoForm" style="font-size: 14pt; margin-top: 10px; ">Comprometimento com a
+                                    melhoria contínua das práticas Scrum na equipe.</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <span class="container" style="width: auto;">
+                        <div class="retangulo quadradoform2" style="background-color: #C91414;">
+                            <h3 style="position: absolute; color: white; margin-left: 12%; margin-top: 5px;">1</h3>
+                            <h3 style="position: absolute; color: white;margin-left: 36%; margin-top: 5px;">2</h3>
+                            <h3 style="position: absolute; color: white;margin-left: 60%; margin-top: 5px;">3</h3>
+                            <h3 style="position: absolute; color: white;margin-left: 84%; margin-top: 5px;">4</h3>
+
+                            <table style="margin-top: 75px; ">
+
+
+                                <tr>
+                                    <hr class="hrform2">
+                                    <td class="circle-rating">
+                                        <input type="radio" name="scrum_carac1" value="1" id="scrum_carac1_1">
+                                        <label for="scrum_carac1_1"></label>
+                                        <input type="radio" name="scrum_carac1" value="2" id="scrum_carac1_2">
+                                        <label for="scrum_carac1_2"></label>
+                                        <input type="radio" name="scrum_carac1" value="3" id="scrum_carac1_3">
+                                        <label for="scrum_carac1_3"></label>
+                                        <input type="radio" name="scrum_carac1" value="4" id="scrum_carac1_4">
+                                        <label for="scrum_carac1_4"></label>
+
+                                    </td>
+                                </tr>
+
+                                <div class="vertical-line1" style="margin-left: 25%;"></div>
+
+                                <tr>
+
+                                    <td class="circle-rating">
+                                        <input type="radio" name="scrum_carac2" value="1" id="scrum_carac2_1">
+                                        <label for="scrum_carac2_1"></label>
+                                        <input type="radio" name="scrum_carac2" value="2" id="scrum_carac2_2">
+                                        <label for="scrum_carac2_2"></label>
+                                        <input type="radio" name="scrum_carac2" value="3" id="scrum_carac2_3">
+                                        <label for="scrum_carac2_3"></label>
+                                        <input type="radio" name="scrum_carac2" value="4" id="scrum_carac2_4">
+                                        <label for="scrum_carac2_4"></label>
+                                    </td>
+                                </tr>
+
+                                <div class="vertical-line1" style="margin-left: 50%;"></div>
+
+                                <tr>
+
+                                    <td class="circle-rating">
+                                        <input type="radio" name="scrum_carac3" value="1" id="scrum_carac3_1">
+                                        <label for="scrum_carac3_1"></label>
+                                        <input type="radio" name="scrum_carac3" value="2" id="scrum_carac3_2">
+                                        <label for="scrum_carac3_2"></label>
+                                        <input type=radio name="scrum_carac3" value="3" id="scrum_carac3_3">
+                                        <label for="scrum_carac3_3"></label>
+                                        <input type="radio" name="scrum_carac3" value="4" id="scrum_carac3_4">
+                                        <label for="scrum_carac3_4"></label>
+                                    </td>
+                                </tr>
+
+                                <div class="vertical-line1" style="margin-left: 75%;"></div>
+
+                                <tr>
+
+                                    <td class="circle-rating">
+                                        <input type="radio" name="scrum_carac4" value="1" id="scrum_carac4_1">
+                                        <label for="scrum_carac4_1"></label>
+                                        <input type="radio" name="scrum_carac4" value="2" id="scrum_carac4_2">
+                                        <label for="scrum_carac4_2"></label>
+                                        <input type="radio" name="scrum_carac4" value="3" id="scrum_carac4_3">
+                                        <label for="scrum_carac4_3"></label>
+                                        <input type="radio" name="scrum_carac4" value="4" id="scrum_carac4_4">
+                                        <label for="scrum_carac4_4"></label>
+                                    </td>
+                                </tr>
+                                <!-- Repita para outras características do Scrum Master -->
+
+                            </table>
+                        </div>
+                    </span>
+                </div>
+                <div class="container" style=" margin: 100px; margin-left: 160px;">
+                    <div class="d-grid gap-2 col-6 " style="height: 50px;">
+
+                        <button class="btn btn-outline-success" type="submit">Submeter Autoavaliação >>></button>
+                    </div>
+                </div>
+                <!-- Repita o mesmo bloco para Product Owner e Dev Team -->
+
+            </form>
 
 
 
