@@ -3,70 +3,85 @@
 {% block title %} Product Owner {% endblock %}
 {% block content %}
 
-    <main>
-        <hr class="bordaVerde" style="margin-top: -10px;">
-            <div class="retangulo" style="width: 40%;">
-                <img src="{{ url_for('static', filename='IMG/Product Owner Rodapé.png')}}" style="width: 30%; margin-top: 1%; margin-left: 30%;">
-                <p class="Titulo" style="padding-left: 33%; ">
-                    Product Owner
-                </p>
-            </div>
-            <div class="retangulo" style="height: 365px; width: 75%;">
-                <p class="Titulo">
-                    O que é Product Owner
-                </p>
-                <p class="Texto">
-                    O Product Owner desempenha um papel crítico na metodologia Scrum, sendo o principal responsável pela definição e priorização do trabalho a ser realizado pela equipe de desenvolvimento.
-                </p>
-            </div>
+<main>
+    <hr class="bordaVerde" style="margin-top: -10px;">
+    <div class="retangulo" style="width: 40%;">
+        <img src="{{ url_for('static', filename='IMG/Product Owner Rodapé.png')}}"
+            style="width: 30%; height: 60%; margin-top: 1%; margin-left: 30%;">
+        <p class="Titulo" style="padding-left: 33%; ">
+            Product Owner
+        </p>
+    </div>
+    <div class="retangulo" style="height: 365px; width: 75%;">
+        <p class="Titulo">
+            O que é Product Owner
+        </p>
+        <p class="Texto">
+            O Product Owner desempenha um papel crítico na metodologia Scrum, sendo o principal responsável pela
+            definição e priorização do trabalho a ser realizado pela equipe de desenvolvimento.
+        </p>
+    </div>
 
-        <hr style="color: #D9D9D9; margin-top: 50px;">
+    <hr style="color: #D9D9D9; margin-top: 50px;">
 
-        <div class="wrapper">
-            <div class="retangulo2" style="width: 75%; height: 800px;">
-                <p class="Titulo">
-                    Qual a Função do Product Owner
-                </p>
-                <ul>
-                    <li>
-                        
-                        <p class="TextoLista">
-                            Definir e Priorizar o Backlog do Produto: O Product Owner é responsável por criar e manter o backlog do produto. Isso envolve a identificação de funcionalidades, requisitos e itens de trabalho necessários para o produto. Além disso, o Product Owner prioriza esses itens de acordo com seu valor para o cliente e o negócio.
-                        </p>
-                    </li>
-                    <p></p>
-                    <li>
-                        <p class="TextoLista">
-                            Comunicar a Visão do Produto: O Product Owner é responsável por comunicar de maneira clara a visão do produto para a equipe de desenvolvimento e demais partes interessadas. Eles garantem que todos compreendam o propósito do produto e seus objetivos.
-                        </p>
-                    </li>
-                    <p></p>
-                    <li>
-                        <p class="TextoLista">
-                            Tomar Decisões sobre o Produto: O Product Owner toma decisões importantes sobre o que deve ser desenvolvido, a ordem de prioridade das tarefas e o que deve ser entregue em cada Sprint. Eles têm a autoridade final para determinar o que a equipe de desenvolvimento trabalhará.
-                        </p>
-                    </li>
-                    <p></p>
-                    <li>
-                        <p class="TextoLista">
-                            Ser o Voz do Cliente: O Product Owner representa os interesses do cliente e dos stakeholders. Eles entendem as necessidades e expectativas dos clientes e trabalham para garantir que o produto atenda a essas necessidades.
-                        </p>
-                    </li>
-                    <p></p>
-                    <li>
-                        <p class="TextoLista">
-                            Participar do Planejamento da Sprint: Durante o planejamento da Sprint, o Product Owner colabora com a equipe de desenvolvimento para selecionar itens do backlog do produto a serem incluídos na Sprint atual. Eles explicam os detalhes dos itens selecionados e esclarecem dúvidas da equipe
-                        </p>
-                    </li>
-                    <p></p>
-                    <li>
-                        <p class="TextoLista">
-                            Adaptar o Backlog: À medida que o produto evolui e as necessidades do cliente mudam, o Product Owner ajusta o backlog do produto para refletir essas mudanças. Eles estão constantemente refinando e adaptando o trabalho planejado.
-                        </p>
-                    </li>
-                 </ul>
-            </div>
+    <div class="wrapper">
+        <div class="retangulo2" style="width: 75%; height: 800px;">
+            <p class="Titulo">
+                Qual a Função do Product Owner
+            </p>
+            <ul>
+                <li>
+
+                    <p class="TextoLista">
+                        Definir e Priorizar o Backlog do Produto: O Product Owner é responsável por criar e manter o
+                        backlog do produto. Isso envolve a identificação de funcionalidades, requisitos e itens de
+                        trabalho necessários para o produto. Além disso, o Product Owner prioriza esses itens de acordo
+                        com seu valor para o cliente e o negócio.
+                    </p>
+                </li>
+                <p></p>
+                <li>
+                    <p class="TextoLista">
+                        Comunicar a Visão do Produto: O Product Owner é responsável por comunicar de maneira clara a
+                        visão do produto para a equipe de desenvolvimento e demais partes interessadas. Eles garantem
+                        que todos compreendam o propósito do produto e seus objetivos.
+                    </p>
+                </li>
+                <p></p>
+                <li>
+                    <p class="TextoLista">
+                        Tomar Decisões sobre o Produto: O Product Owner toma decisões importantes sobre o que deve ser
+                        desenvolvido, a ordem de prioridade das tarefas e o que deve ser entregue em cada Sprint. Eles
+                        têm a autoridade final para determinar o que a equipe de desenvolvimento trabalhará.
+                    </p>
+                </li>
+                <p></p>
+                <li>
+                    <p class="TextoLista">
+                        Ser o Voz do Cliente: O Product Owner representa os interesses do cliente e dos stakeholders.
+                        Eles entendem as necessidades e expectativas dos clientes e trabalham para garantir que o
+                        produto atenda a essas necessidades.
+                    </p>
+                </li>
+                <p></p>
+                <li>
+                    <p class="TextoLista">
+                        Participar do Planejamento da Sprint: Durante o planejamento da Sprint, o Product Owner colabora
+                        com a equipe de desenvolvimento para selecionar itens do backlog do produto a serem incluídos na
+                        Sprint atual. Eles explicam os detalhes dos itens selecionados e esclarecem dúvidas da equipe
+                    </p>
+                </li>
+                <p></p>
+                <li>
+                    <p class="TextoLista">
+                        Adaptar o Backlog: À medida que o produto evolui e as necessidades do cliente mudam, o Product
+                        Owner ajusta o backlog do produto para refletir essas mudanças. Eles estão constantemente
+                        refinando e adaptando o trabalho planejado.
+                    </p>
+                </li>
+            </ul>
         </div>
-    </main>
+    </div>
+</main>
 
 {% endblock %}

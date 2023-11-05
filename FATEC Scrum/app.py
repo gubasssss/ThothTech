@@ -35,6 +35,11 @@ def productowner():
 def cerimonias():
     return render_template('cerimonias.html')
 
+@app.route('/metodologia_agil')
+def metodoagil():
+    return render_template('metodoagil.html')
+
+
 
 
 class AvaliacaoForm(FlaskForm):

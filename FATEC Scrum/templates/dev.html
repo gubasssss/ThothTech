@@ -3,72 +3,86 @@
 {% block title %} Dev Team {% endblock %}
 {% block content %}
 
-    <main>
-        <hr class="bordaVerde" style="margin-top: -10px;">
-        <div class="retangulo" style="width: 40%;">
-            <img src="{{ url_for('static', filename='IMG/DevTeamRodape.png')}}" alt="DevTeamRodape" style="width: 30%; margin-top: 1%; margin-left: 30%;">
-            <p class="Titulo" style="padding-left: 24%;">
-                Time de Desenvolvimento
+<main>
+    <hr class="bordaVerde" style="margin-top: -10px;">
+    <div class="retangulo" style="width: 40%;">
+        <img src="{{ url_for('static', filename='IMG/DevTeamRodape.png')}}" alt="DevTeamRodape"
+        style="width: 30%; height: 60%; margin-top: 1%; margin-left: 30%;">
+        <p class="Titulo" style="padding-left: 24%;">
+            Time de Desenvolvimento
+        </p>
+    </div>
+    <div class="retangulo" style="width: 75%; height: 550px;">
+        <p class="Titulo">
+            O que é o Time de Desenvolvimento
+        </p>
+        <p class="Texto">
+            Na metodologia Scrum, o Time de Desenvolvimento é um dos três papéis essenciais dentro de uma equipe Scrum.
+            O Time de Desenvolvimento é composto por profissionais que são responsáveis pela criação do incremento do
+            produto durante o desenvolvimento de um projeto Scrum.
+        </p>
+        <p class="Texto">
+            Tamanho Adequado: O tamanho ideal de um Time de Desenvolvimento pode variar, mas é geralmente recomendado
+            que varie de 3 a 9 membros. Ter um tamanho de equipe gerenciável facilita a comunicação e a colaboração
+            eficazes.
+        </p>
+        <p class="Texto">
+            Auto-Organização: O Time de Desenvolvimento é autogerenciado e tem a autoridade para determinar como
+            planejar e executar o trabalho necessário para atingir os objetivos da Sprint. Eles não são gerenciados por
+            um líder ou gerente externo.
+        </p>
+    </div>
+
+    <hr style="color: #D9D9D9; margin-top: 50px;">
+
+    <div class="wrapper">
+        <div class="retangulo2" style="width: 75%; height: 700px;">
+            <p class="Titulo">
+                Qual a função do Time de Desenvolvimento
             </p>
+            <ul>
+                <li>
+                    <p class="Subtitulo">
+                        Desenvolver Incrementos do Produto:
+                    </p>
+                    <p class="TextoLista">
+                        A função principal do Time de Desenvolvimento é criar incrementos do produto de alta qualidade.
+                        Eles trabalham para transformar os itens do backlog do produto em funcionalidades ou
+                        características prontas para serem entregues ao cliente.
+                    </p>
+                </li>
+                <li>
+                    <p class="Subtitulo">
+                        Compromisso com a Sprint:
+                    </p>
+                    <p class="TextoLista">
+                        A equipe se compromete a entregar todos os itens do backlog da Sprint que eles selecionaram
+                        durante o planejamento da Sprint. Eles são responsáveis por cumprir esse compromisso e entregar
+                        um incremento de produto potencialmente entregável.
+                    </p>
+                </li>
+                <li>
+                    <p class="Subtitulo">
+                        Testes e Garantia de Qualidade:
+                    </p>
+                    <p class="TextoLista">
+                        A equipe é responsável por garantir a qualidade do produto, incluindo testes unitários, testes
+                        de integração e outros tipos de teste necessários. Eles também podem trabalhar com especialistas
+                        em qualidade (QA) para garantir a qualidade do produto.
+                    </p>
+                </li>
+                <li>
+                    <p class="Subtitulo">
+                        Melhoria Contínua:
+                    </p>
+                    <p class="TextoLista">
+                        O Time de Desenvolvimento realiza retrospectivas após cada Sprint para revisar o desempenho,
+                        identificar oportunidades de melhoria e ajustar seus processos e práticas conforme necessário.
+                    </p>
+                </li>
+            </ul>
         </div>
-            <div class="retangulo" style="width: 75%; height: 550px;">
-                <p class="Titulo">
-                    O que é o Time de Desenvolvimento
-                </p>
-                <p class="Texto">
-                    Na metodologia Scrum, o Time de Desenvolvimento é um dos três papéis essenciais dentro de uma equipe Scrum. O Time de Desenvolvimento é composto por profissionais que são responsáveis pela criação do incremento do produto durante o desenvolvimento de um projeto Scrum.
-                </p>
-                <p class="Texto">
-                    Tamanho Adequado: O tamanho ideal de um Time de Desenvolvimento pode variar, mas é geralmente recomendado que varie de 3 a 9 membros. Ter um tamanho de equipe gerenciável facilita a comunicação e a colaboração eficazes.
-                </p>
-                <p class="Texto">
-                    Auto-Organização: O Time de Desenvolvimento é autogerenciado e tem a autoridade para determinar como planejar e executar o trabalho necessário para atingir os objetivos da Sprint. Eles não são gerenciados por um líder ou gerente externo.
-                </p>
-            </div>
-
-        <hr style="color: #D9D9D9; margin-top: 50px;">
-
-        <div class="wrapper">
-            <div class="retangulo2" style="width: 75%; height: 700px;">
-                <p class="Titulo">
-                    Qual a função do Time de Desenvolvimento
-                </p>
-                <ul>
-                    <li>
-                        <p class="Subtitulo">
-                            Desenvolver Incrementos do Produto:
-                        </p>
-                        <p class="TextoLista">
-                            A função principal do Time de Desenvolvimento é criar incrementos do produto de alta qualidade. Eles trabalham para transformar os itens do backlog do produto em funcionalidades ou características prontas para serem entregues ao cliente.
-                        </p>
-                    </li>
-                    <li>
-                        <p class="Subtitulo">
-                            Compromisso com a Sprint: 
-                        </p>
-                        <p class="TextoLista">
-                            A equipe se compromete a entregar todos os itens do backlog da Sprint que eles selecionaram durante o planejamento da Sprint. Eles são responsáveis por cumprir esse compromisso e entregar um incremento de produto potencialmente entregável.
-                        </p>
-                    </li>
-                    <li>
-                        <p class="Subtitulo">
-                            Testes e Garantia de Qualidade: 
-                        </p>
-                        <p class="TextoLista">
-                            A equipe é responsável por garantir a qualidade do produto, incluindo testes unitários, testes de integração e outros tipos de teste necessários. Eles também podem trabalhar com especialistas em qualidade (QA) para garantir a qualidade do produto.
-                        </p>
-                    </li>
-                    <li>
-                        <p class="Subtitulo">
-                            Melhoria Contínua: 
-                        </p>
-                        <p class="TextoLista">
-                            O Time de Desenvolvimento realiza retrospectivas após cada Sprint para revisar o desempenho, identificar oportunidades de melhoria e ajustar seus processos e práticas conforme necessário.
-                        </p>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </main>
+    </div>
+</main>
 
 {% endblock %}

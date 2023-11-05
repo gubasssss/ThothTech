@@ -3,51 +3,75 @@
 {% block title %} Artefatos {% endblock %}
 {% block content %}
 
-    <main>
-        <hr class="bordaVerde" style="margin-top: -10px;">
+<main>
+    <hr class="bordaVerde" style="margin-top: -10px;">
 
-        <span class="gridContainer">
-            <div class="quadrado" style=" margin-left: auto; margin-right: auto;">
-            <img src="{{ url_for('static', filename='IMG/artefato png.png')}}" alt="ArtefatosPng" style="margin-top: 8%; margin-left: 17%;">
+    <span class="gridContainer">
+        <div class="quadrado" style=" margin-left: auto; margin-right: auto;">
+            <img src="{{ url_for('static', filename='IMG/artefato png.png')}}" alt="ArtefatosPng"
+                style="margin-top: 8%; margin-left: 17%;">
             <p class="Titulo" style=" padding: 0; margin-left: 15%; font-size: 25pt; margin-top: 12px;">
                 Artefatos do Scrum
             </p>
-            </div>
-        </span>
+        </div>
+    </span>
 
-        <span class="gridContainer">
-            <div class="retangulo3" style="margin-left: auto; margin-right: auto">
-                <p class="Titulo" style=" text-align: center; align-items: center; justify-content: center; margin-top: 0;">
-                    Product Backlog
-                </p>
-                <p class="Texto">
-                    O Backlog do Produto é uma lista dinâmica de todos os requisitos, funcionalidades e melhorias desejadas para o projeto. Ele é priorizado pelo Proprietário do Produto, que trabalha em estreita colaboração com o cliente para garantir que os itens mais importantes estejam no topo da lista.<br>
-                    O Product Backlog é uma ferramenta essencial para garantir que a equipe de desenvolvimento esteja focada em entregar o máximo valor possível ao cliente e ao negócio, à medida que o produto evolui ao longo do tempo. Ele desempenha um papel crítico na gestão ágil do escopo do projeto e na adaptação contínua às necessidades do cliente.<br>
-                    Imagine que estamos desenvolvendo um software de e-commerce. No Backlog do Produto, podemos listar itens como "permitir aos clientes criar uma conta," "implementar um carrinho de compras" e "introduzir um sistema de avaliações de produtos." Esses itens são priorizados com base nas necessidades do negócio e nos requisitos dos clientes.
-                </p>
-            </div>
-        </span>
+    <span class="gridContainer">
+        <div class="retangulo3" style="margin-left: auto; margin-right: auto; height: 650px">
+            <p class="Titulo" style=" text-align: center; align-items: center; justify-content: center; margin-top: 0;">
+                Product Backlog
+            </p>
+            <p class="Texto">
+                O Backlog do Produto é uma lista dinâmica de todos os requisitos, funcionalidades e melhorias desejadas
+                para o projeto. Ele é priorizado pelo Proprietário do Produto, que trabalha em estreita colaboração com
+                o cliente para garantir que os itens mais importantes estejam no topo da lista.<br>
+                O Product Backlog é uma ferramenta essencial para garantir que a equipe de desenvolvimento esteja focada
+                em entregar o máximo valor possível ao cliente e ao negócio, à medida que o produto evolui ao longo do
+                tempo. Ele desempenha um papel crítico na gestão ágil do escopo do projeto e na adaptação contínua às
+                necessidades do cliente.<br>
+                Imagine que estamos desenvolvendo um software de e-commerce. No Backlog do Produto, podemos listar itens
+                como "permitir aos clientes criar uma conta," "implementar um carrinho de compras" e "introduzir um
+                sistema de avaliações de produtos." Esses itens são priorizados com base nas necessidades do negócio e
+                nos requisitos dos clientes.
+            </p>
+        </div>
+    </span>
 
-        <span class="gridContainer">
-            <div class="retangulo" style="width: 47%; height: 500px;">
-                <p class="Titulo" style=" margin-top: 0px; text-align: center;">
-                    Sprint Backlog
-                </p>
-                <p class="Texto">
-                    O Sprint Backlog é uma seleção das tarefas do Backlog do Produto que a equipe se compromete a concluir durante um Sprint específico. Essas tarefas são escolhidas durante a reunião de Planejamento da Sprint e representam o trabalho que a equipe planeja realizar na iteração.<br>
-                    Os itens do Sprint Backlog são detalhados o suficiente para que a equipe de desenvolvimento saiba exatamente o que fazer para completá-los. Isso pode incluir quebrar os itens em tarefas menores, criar designs ou especificações mais detalhadas, ou qualquer outra informação necessária para realizar o trabalho.
-                    Imagine que uma equipe de desenvolvimento de software está trabalhando em um sistema de gerenciamento de projetos. Durante o Planejamento da Sprint, a equipe seleciona tarefas específicas do Backlog do Produto para incluir no Sprint Backlog. Por exemplo "Criar a página de perfil do usuário com informações personalizáveis.".       
-                </p>
-            </div>
-            <div class="retangulo2" style="width: 47%; margin-bottom: 50px; height: 500px;">
-                <p class="Titulo" style="margin-top: 0px; text-align: center;">
-                    Incremento
-                </p>
-                <p class="Texto">
-                    Os Incrementos são versões funcionais e potencialmente utilizáveis do produto que resultam da conclusão de cada Sprint. Eles representam o trabalho concluído durante a iteração e devem ser testáveis e entregáveis.<br>
-                    Imagine que após a conclusão de um Sprint em que a equipe trabalhou na funcionalidade de login com autenticação segura, o Incremento resultante é uma parte funcional do sistema que pode ser testada e usada pelos usuários finais. Os Incrementos são acumulativos, o que significa que a cada Sprint, novas funcionalidades e melhorias são adicionadas ao produto, levando a um sistema cada vez mais completo e útil. Esse processo contínuo de entrega de Incrementos permite que os clientes vejam o progresso regularmente e forneçam feedback valioso ao longo do projeto.
-                </p>
-            </div>
-        </span>
-    </main>
+    <span class="gridContainer">
+        <div class="retangulo" style="width: 47%; height: 650px;">
+            <p class="Titulo" style=" margin-top: 0px; text-align: center;">
+                Sprint Backlog
+            </p>
+            <p class="Texto">
+                O Sprint Backlog é uma seleção das tarefas do Backlog do Produto que a equipe se compromete a concluir
+                durante um Sprint específico. Essas tarefas são escolhidas durante a reunião de Planejamento da Sprint e
+                representam o trabalho que a equipe planeja realizar na iteração.<br>
+                Os itens do Sprint Backlog são detalhados o suficiente para que a equipe de desenvolvimento saiba
+                exatamente o que fazer para completá-los. Isso pode incluir quebrar os itens em tarefas menores, criar
+                designs ou especificações mais detalhadas, ou qualquer outra informação necessária para realizar o
+                trabalho.
+                Imagine que uma equipe de desenvolvimento de software está trabalhando em um sistema de gerenciamento de
+                projetos. Durante o Planejamento da Sprint, a equipe seleciona tarefas específicas do Backlog do Produto
+                para incluir no Sprint Backlog. Por exemplo "Criar a página de perfil do usuário com informações
+                personalizáveis.".
+            </p>
+        </div>
+        <div class="retangulo2" style="width: 47%; margin-bottom: 50px; height: 650px;">
+            <p class="Titulo" style="margin-top: 0px; text-align: center;">
+                Incremento
+            </p>
+            <p class="Texto">
+                Os Incrementos são versões funcionais e potencialmente utilizáveis do produto que resultam da conclusão
+                de cada Sprint. Eles representam o trabalho concluído durante a iteração e devem ser testáveis e
+                entregáveis.<br>
+                Imagine que após a conclusão de um Sprint em que a equipe trabalhou na funcionalidade de login com
+                autenticação segura, o Incremento resultante é uma parte funcional do sistema que pode ser testada e
+                usada pelos usuários finais. Os Incrementos são acumulativos, o que significa que a cada Sprint, novas
+                funcionalidades e melhorias são adicionadas ao produto, levando a um sistema cada vez mais completo e
+                útil. Esse processo contínuo de entrega de Incrementos permite que os clientes vejam o progresso
+                regularmente e forneçam feedback valioso ao longo do projeto.
+            </p>
+        </div>
+    </span>
+</main>
 {% endblock %}
