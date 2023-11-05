@@ -1,0 +1,60 @@
+{% extends 'baserodape.html' %}
+
+{% block title %} Scrum Master {% endblock %}
+{% block content %}
+
+    <main>
+        <hr class="bordaVerde" style="margin-top: -10px;">
+            <div class="retangulo" style="width: 40%;">
+                <img src="{{ url_for('static', filename='IMG/Scrum Master Rodapé.png')}}" style="width: 30%; margin-top: 1%; margin-left: 30%;">
+                <p class="Titulo" style="padding-left: 33%; ">
+                    Scrum Master
+                </p>
+            </div>
+            <div class="retangulo" style="height: 365px; width: 75%;">
+                <p class="Titulo">
+                    O que é um Scrum Master
+                </p>
+                <p class="Texto">
+                    Um Scrum Master é um dos três principais papéis no framework Scrum, que é uma metodologia ágil amplamente utilizada para o desenvolvimento de projetos, principalmente na área de software, mas também aplicável a outras áreas. O Scrum Master desempenha um papel fundamental na facilitação e na garantia de que a equipe Scrum siga os princípios e práticas do Scrum de forma eficaz. O principal objetivo do Scrum Master é ajudar a equipe a alcançar a maior produtividade e eficiência possível.
+                </p>
+            </div>
+
+        <hr style="color: #D9D9D9; margin-top: 50px;">
+
+        <div class="wrapper">
+            <div class="retangulo2" style="width: 75%; height: 800px;">
+                <p class="Titulo">
+                    Qual a Função do Scrum Master
+                </p>
+                <ul>
+                    <li>
+                        <p class="Subtitulo">
+                            Facilitador do Processo:
+                        </p>
+                        <p class="TextoLista">
+                            O Scrum Master facilita reuniões, como o Planejamento da Sprint, a Revisão da Sprint e a Retrospectiva da Sprint, garantindo que elas sejam eficazes e produtivas. Ele ajuda a equipe a adotar as práticas do Scrum e a compreender o valor da transparência, inspeção e adaptação.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="Subtitulo">
+                            Remover Obstáculos:
+                        </p>
+                        <p class="TextoLista">
+                            Quando a equipe enfrenta obstáculos, sejam eles de natureza técnica ou organizacional, o Scrum Master age como um defensor. Ele trabalha para eliminá-los ou ajuda a equipe a encontrar maneiras de contorná-los, permitindo que o trabalho prossiga sem interrupções.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="Subtitulo">
+                            Avaliar e Melhorar:
+                        </p>
+                        <p class="TextoLista">
+                            O Scrum Master promove um ambiente de trabalho colaborativo e produtivo. Ele ajuda a equipe a resolver conflitos, aprimora a comunicação e incentiva a autogestão. Isso cria um ambiente no qual a equipe pode se concentrar na entrega de valor ao cliente.
+                        </p>
+                    </li>
+                 </ul>
+            </div>
+        </div>
+    </main>
+
+{% endblock %}

@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+
+{% block title %} Cerimonias {% endblock %}
+{% block content %}
+
+    <main>
+        <hr class="bordaVerde" style="margin-top: -10px;">
+        <span class="alinhaMeio">
+            <div class="quadrado" style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+                <img src="{{ url_for('static', filename='IMG/cerimoniaScrum.png')}}" alt="" style="height: 70%; width: 70%;">
+                <p class="Titulo" style="padding: 0; margin-left: 15%; font-size: 25pt; margin-top: 12px;">
+                    Cerimonias Scrum
+                </p>
+            </div>
+        </span>
+        
+        <span class="wrapper" style="justify-content:center ;">
+            <div class="retangulo3">
+                <p class="Titulo" style="text-align: center;">Planejamento da Sprint</p>
+                <p class="Texto"> No início da Sprint, o Time de Desenvolvimento e o Proprietário do Produto se reúnem para selecionar as tarefas que serão realizadas durante a Sprint.<br>
+                    Em uma equipe de desenvolvimento de software, o Planejamento da Sprint pode envolver a seleção de tarefas específicas, como "desenvolver funcionalidade de pagamento" e "implementar sistema de notificação por e-mail" para uma Sprint de 2 semanas.
+   
+                </p>
+            </div>
+        </span>
+
+        <span class="gridContainer">
+            <div class="retangulo" style="width: 47%;">
+                <p class="Titulo" style=" margin-top: 0px; text-align: center;">
+                    Revisão da Sprint
+                </p>
+                <p class="Texto">
+                    No final da Sprint, a equipe apresenta o Incremento funcional resultante do trabalho da Sprint. P.O e os clientes fornecem feedback.
+                </p>
+            </div>
+            <div class="retangulo2" style="width: 47%; margin-bottom: 50px;">
+                <p class="Titulo" style="margin-top: 0px; text-align: center;">
+                    Retrospectiva da Sprint
+                </p>
+                <p class="Texto">
+                    Após a Revisão da Sprint, a equipe realiza uma retrospectiva para identificar melhorias no processo.
+                    Na Retrospectiva, a equipe pode discutir aprimoramentos como "melhorar a comunicação interna" e "aumentar a automação de testes" para otimizar o próximo Sprint.
+                </p>
+            </div>
+        </span>
+        <span class="wrapper" style="justify-content:center;">
+            <div class="retangulo3" style="height: 350px; margin-bottom: 50px;">
+                <p class="Titulo" style="text-align: center; ">Reuniões Diárias (Daily Standup)</p>
+                <p class="Texto"> 
+                    As reuniões diárias, também conhecidas como "standup meetings," são encontros diários de curta duração nos quais os membros da equipe compartilham o progresso, desafios e planos para o dia.<br>
+                    Em uma equipe de desenvolvimento de software, a reunião diária pode envolver cada membro relatando o que fez no dia anterior, o que planeja fazer no dia atual e quais obstáculos enfrenta. Essas reuniões mantêm a equipe alinhada, identificam problemas rapidamente e facilitam a colaboração.
+                </p>
+            </div>
+        </span> 
+    </main>
+    {% endblock %}

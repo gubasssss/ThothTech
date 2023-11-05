@@ -32,7 +32,7 @@
 <h2 aling="center"> 🧩Planejamento das Sprints </h2>
  
 
-  <img src="https://github.com/gubasssss/ThothTech/assets/143751785/668b8a4a-2113-40a9-9455-8a4cb96ac31c"/>
+  <img src="https://github.com/gubasssss/ThothTech/assets/143751785/ead60747-7f5e-410e-baff-7b7e17a89fb1"/>
 
     
 </p>
@@ -49,11 +49,11 @@
 | 1 | 4 | Eu,como cliente,quero uma aba focada na parte de metodologia ágil| Wireframe | 4h | :white_check_mark:   | 4 |
 | 1 | 5 | Eu,como cliente,quero ver as etapas de desenvolvimento e planejamento do produto| Backlog   | 3h |:white_check_mark:   | 5 |
 | 2 | 6 | Eu,como cliente,quero um site que ensine os conceitos ágeis em HTML e CSS | Website   | 15h| :white_check_mark:           |9 |
-| 2 | 7 | Eu,como cliente,quero um site que possua amplo conteúdo de métodos ágeis| Website | 8h| :no_entry: |5|
-| 3 | 8 | Eu,como cliente,quero mecanismos que facilitem a navegação pelo site | Website   | 8h | :no_entry:           | 6 |
-| 3 | 9 | Eu,como cliente,quero uma organização no site que seja didática e direta| Website   | 6h | :no_entry:           | 6 |
-| 3 | 10 | Eu,como cliente,quero um metodo avaliativo sobre o conteúdo| Website   | 7h |:no_entry:            | 6 | 
-| 3 | 11 | Eu,como cliente,quero ter as estatisticas das avaliações de forma geral no site | Website   | 4h |:no_entry:            | 4 |
+| 2 | 7 | Eu,como cliente,quero um site que possua amplo conteúdo de métodos ágeis| Website | 8h| :white_check_mark: |5|
+| 3 | 8 | Eu,como cliente,quero mecanismos que facilitem a navegação pelo site | Website   | 6h | :white_check_mark:          | 7 |
+| 3 | 9 | Eu,como cliente,quero a implementação de um microframework| Website   | 8h | :white_check_mark:           | 8 |
+| 3 | 10 | Eu,como cliente,quero a implementação de Bootstrap,para estilização do site| Website   | 12h |:white_check_mark:          | 8 |
+| 3 | 11 | Eu,como cliente,quero um formulário avaliativo utilizando Python| Website   | 10h |:white_check_mark:          | 9 |
 | 4 | 12 | Eu,como cliente, quero toda documentação do API organizada| Website   | 3h |:no_entry:            | 4 |
 | 4 | 13 | Eu,como cliente, quero ter uma experiencia coesa e funcional no site | Website   | 3h |:no_entry:            | 7 |
 
@@ -67,7 +67,7 @@
 
  ### <a href="./Relatórios/Sprint 2.md">2️⃣SPRINT 2 - 15/10/2023</a>
 
- ### SPRINT 3
+ ### <a href="./Relatórios/Sprint 3.md">3️⃣SPRINT 3 - 05/11/2023</a>
 
  ### SPRINT 4
 
@@ -102,6 +102,24 @@
       <img align="left" title="python" height="30px" src="https://user-images.githubusercontent.com/76211125/227505058-d6d60925-3738-478f-8b23-3eb586431a1a.png"/>
    Python 
  </p>
+ 
+ * <p>
+   <img align="left" title="bootstrap" height="30px" src="https://user-images.githubusercontent.com/76211125/227509792-60a17912-2bf2-4700-a23c-886a32bd8811.png"/>
+   Bootstrap 
+ </p>
+
+ * <p>
+   <img align="left" title="flask" height="30px" src="https://user-images.githubusercontent.com/76211125/227565311-a366f66f-78db-44b0-8616-54146e9d7e28.png"/>
+   Flask 
+ </p>
+
+ * <p>
+   <img align="left" title="vscode" height="30px" src="https://user-images.githubusercontent.com/76211125/227505063-5839c5e0-9524-41ff-9d24-ce6cbaf217a6.png"/>
+   Visual Studio Code 
+ </p>
+
+
+ 
 
 <span id="time">
     
@@ -112,11 +130,12 @@
 |      Nome      |    Função       |                            Github                             |                           Linkedin                           |
 | :--------------: | :-----------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | Gustavo Badim  | Scrum Master  |[<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">](https://github.com/gubasssss) |[<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/gustavo-badim-8538b7285)|
-|   Mateus Toledo   | Product Owner |  [<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">](https://github.com/RockRural)|  [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/mateus-toledo-1486ba291/)|
+|Flávio Gonçalves|Product Owner|[<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">](https://github.com/flaviogcunha)|[<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/flavio-gon%C3%A7alves-21aa91261/)
+|   Mateus Toledo   | Desenvolvedor |  [<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">](https://github.com/RockRural)|  [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/mateus-toledo-1486ba291/)|
 |Gustavo Braga | Desenvolvedor | [<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">](https://github.com/HenryBRG)| [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/gustavo-henrique-braga-b92544252/)|
 | Márcio Gabriel | Desenvolvedor | [<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">](https://github.com/Porisso90) | [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/m%C3%A1rcio-gabriel-426b0527b/)
 | Vinicius Henrique| Desenvolvedor | [<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">](https://github.com/Subinoonibus) | [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/vin%C3%ADcius-henrique-souza-4085b1226/) |
-|Flávio Gonçalves|Desenvolvedor|[<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">](https://github.com/flaviogcunha)|[<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/flavio-gon%C3%A7alves-21aa91261/)
+
 
 
 
