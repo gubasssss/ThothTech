@@ -69,3 +69,5 @@ Nesta terceira Sprint o foco foi na inclusão de novas tecnologias ao site e à 
 
 
 ## 👨‍💻Trabalho desenvolvido
+https://github.com/gubasssss/ThothTech/assets/60403796/bd2764e2-a5a9-49d8-a2d9-9cff74170aae
+
