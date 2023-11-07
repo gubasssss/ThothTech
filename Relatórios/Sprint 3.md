@@ -64,7 +64,7 @@ Nesta terceira Sprint o foco foi na inclusão de novas tecnologias ao site e à 
 
 
 ## 👓Sprint Review
-[Apresentação Sprint 3](https://github.com/gubasssss/ThothTech/files/13256977/Apresentacao.Sprint.3.1.pdf)
+[Apresentação Sprint 3](https://github.com/gubasssss/ThothTech/files/13289653/Apresentacao.Sprint.3.pptx)
 
 
 
