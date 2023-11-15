@@ -249,3 +249,7 @@ label {
     margin-right: 20px; /* Ajuste a margem para controlar o espaçamento entre os círculos */
     margin-top: 100px;
 }
+.titulomargin
+{
+    margin-top: 60px;
+}
