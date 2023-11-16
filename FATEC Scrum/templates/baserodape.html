@@ -70,39 +70,49 @@
 
     <footer>
         <div class="retangulo"
-            style="border-radius: 0px; width: 100%; height: 310px; display: flex; justify-content: space-between; align-items: center; z-index: auto;">
+        style="border-radius: 0px; width: 100%; height: auto; display: flex; justify-content: space-between; align-items: center; z-index: auto;">
+        <div class="row">
+            <div class="col-md-4">
             <a href="/productowner" class="my-link">
                 <div class="imagem-texto">
                     <img src="{{ url_for('static', filename='IMG/Product Owner Rodapé.png')}}" alt=""
                         class="footer-image">
-                    <p>Product Owner (P.O.)</p>
-                    <p style="font-size: 14pt;">
+                    <p style="width: auto;">Product Owner (P.O.)</p>
+                    <p style="font-size: 14pt;width: auto;">
                         Gerencia o backlog do produto e conecta a equipe de desenvolvimento com as solicitações de
                         clientes
                     </p>
                 </div>
             </a>
+            </div>
+        
+            <div class="col-md-4">
             <a href="/master" class="my-link">
                 <div class="imagem-texto">
                     <img src="{{ url_for('static', filename='IMG/Scrum Master Rodapé.png')}}" alt=""
                         class="footer-image">
-                    <p>Scrum Master</p>
-                    <p style="font-size: 14pt;">
+                    <p style="width: auto;">Scrum Master</p>
+                    <p style="font-size: 14pt;width: auto;">
                         Líder da equipe, vai guiar o time pelas melhores práticas do Scrum. Faz a ponte entre o P.O e o
                         time de dev.
                     </p>
                 </div>
             </a>
+            </div>
+            <div class="col-md-4">
             <a href="/dev" class="my-link">
                 <div class="imagem-texto">
                     <img src="{{ url_for('static', filename='IMG/DevTeamRodape.png')}}" alt="" class="footer-image">
-                    <p>Developer Team</p>
-                    <p style="font-size: 14pt;">
+                    <p style="width: auto;">Developer Team</p>
+                    <p style="font-size: 14pt;width: auto;">
                         A equipe de desenvolvimento. Profissionais que executam os incrementos no produto.
                     </p>
                 </div>
             </a>
+            </div>
         </div>
+    </div>
+    
     </footer>
 </body>
 
