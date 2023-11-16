@@ -17,7 +17,20 @@ body {
     margin: 0px;
     margin-bottom: 0px;
 }
-
+@media only screen and (max-width:918px){
+    .quadrado{
+        display: none;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width:1028px){
+    .mediaretangulo2{
+        width: 100% !important;
+        
+    }
+    .quadrado2media{
+        display: none;
+    }
+}
 .bordaVerde {
     background-color: #005C6E;
     border-color: #005C6E;
@@ -36,8 +49,8 @@ body {
 }
 .retangulo {
     margin-top: 50px;
-    width: 999px;
-    height: 370px;
+    width: auto;
+    height: auto;
     background-color: #D9D9D9;
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
@@ -45,12 +58,12 @@ body {
 }
 .retangulo2 {
     margin-top: 50px;
-    width: 999px;
-    height: 370px;
+    width: auto;
+    height: auto;
     background-color: #D9D9D9;
     border-top-left-radius: 40px;
     border-bottom-left-radius: 40px;
-    margin-top: 50px;
+    
 } 
 .retangulo3 {
     margin-top: 60px;
@@ -86,6 +99,7 @@ body {
     height: 370px;
     background-color: #D9D9D9;
     border-radius: 40px;
+    margin-left: 50px;
 }
 .quadradorosa {
     margin-top: 50px;

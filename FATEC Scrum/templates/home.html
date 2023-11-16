@@ -4,34 +4,44 @@
 {% block content %}
 <main>
     <img src="{{ url_for('static', filename='IMG/SCRUM.png')}}" alt="cps"
-        style="height: 700px; width: 100%; padding-bottom: 0px;">
+        style="height: auto; width: 100%; padding-bottom: 0px;">
 
     <hr class="bordaVerde" style="margin-top: -4px;">
 
     <span class="gridContainer">
-        <div class="retangulo">
-            <p class="Titulo">
+        <div class="row">
+            <div class="col-md-6">
+        <div class="retangulo" >
+            <p class="Titulo" style="width: auto; height: auto;">
                 O que é o Método Ágil
             </p>
-            <p class="Texto">
+            <p class="Texto" style="width: auto; height: auto;">
                 A metodologia ágil é uma abordagem flexível e colaborativa para gerenciar projetos e equipes. Ela se
                 concentra na adaptação contínua, na entrega de valor ao cliente e na comunicação eficaz.
             </p>
         </div>
-        <div class="quadrado" style="margin-right: 75px; text-align: center;">
+        </div>
+        <div class="col-md-6">
+        <div class="quadrado" style="margin-right: 55px; text-align: center;">
             <img src="{{ url_for('static', filename='IMG/processo.png')}}"" alt=" Img 2 Home"
                 style="width: 330px; margin-top: 22px;">
         </div>
+        </div>
+        
     </span>
 
     <hr style="color: #D9D9D9; margin-top: 50px;">
 
     <span class="gridContainer">
-        <div class="quadrado" style="margin-top: 50px; margin-left: 75px;">
+        <div class="row">
+            <div class="col-md-6 ">
+        <div class="quadrado quadrado2media" style="margin-top: 45px;margin-left: 85px;">
             <img src="{{ url_for('static', filename='IMG/dip.png')}}" alt="Setas do Scrum"
                 style="margin-top: 25px; margin-left: 50px;">
         </div>
-        <div class="retangulo2">
+        </div>
+        <div class="col-md-6 mediaretangulo2">
+        <div class="retangulo2 ">
             <p class="Titulo">
                 O que é o Scrum
             </p>
@@ -41,12 +51,15 @@
                 a colaboração da equipe e permitir a adaptação contínua aos requisitos do cliente.
             </p>
         </div>
+        </div>
     </span>
 
     <hr style="color: #D9D9D9; margin-top: 50px;">
 
     <span class="gridContainer" style="margin-bottom: 50px;">
-        <div class="retangulo" style="height: 800px;">
+        <div class="row">
+        <div class="col-md-6">
+        <div class="retangulo" style="height: auto;">
             <p class="Titulo">
                 Papéis no Scrum
             </p>
@@ -80,9 +93,13 @@
                 </li>
             </ul>
         </div>
-        <div class="quadrado" style="margin-top: 260px; margin-right: 75px;">
+        </div>
+        <div class="col-md-6">
+        <div class="quadrado" style="margin-top: 150px; margin-right: 75px;">
             <img src="{{ url_for('static', filename='IMG/team.png')}}" alt="Img 3 Home"
                 style="width: 330px; margin-top: 22px; margin-left: 33px;">
+        </div>
+        </div>
         </div>
     </span>
 </main>
