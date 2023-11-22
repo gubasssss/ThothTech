@@ -17,10 +17,20 @@ body {
     margin: 0px;
     margin-bottom: 0px;
 }
+
+@media only screen and (max-width:611px){
+    input[type="radio"] {
+        margin-left: 15px !important;
+    }
+
+}
+
 @media only screen and (max-width:380px){
     .cerimonias{
         margin-left: 12% !important;
+    
     }
+
 }
 @media only screen and (max-width:566px){
     .imgcargo{
@@ -38,12 +48,16 @@ body {
         padding-left: 5% !important ;
         
     }
-    .retangulo{
-        width: 100% !important;
-    }
+    
     .cps{
        opacity: 0;
        z-index: -4;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .setaf{
+        width: 100% !important;
     }
 }
 @media only screen and (max-width:918px){
@@ -59,6 +73,12 @@ body {
     .quadrado2media{
         display: none;
     }
+}
+@media only screen and (max-width:1170px){
+    .autoavaimg{
+        display: none;
+    }
+
 }
 .bordaVerde {
     background-color: #005C6E;
@@ -112,9 +132,8 @@ body {
 }
 .quadradoform{
     z-index: 1;
-    width: 420px;
-    height: 420px;
-    margin-left: 30px ;
+    width: auto;
+    height: auto;
     margin-top: 60px;
     border-radius: 30px;
 }
@@ -148,9 +167,9 @@ body {
     margin-left: 50px;
 }
 .quadradorosa {
-    margin-top: 50px;
-    width: 400px;
-    height: 370px;
+    
+    width: auto;
+    height: auto;
     background-color: #FC5159;
     border-radius: 40px;
 }
@@ -194,7 +213,7 @@ body {
     color:#fff;
     margin-right: 0px;
     text-align: left;
-    width: 350px;
+    width: 85%;
 }
 .TextoLista {
     margin: 0px;
@@ -208,15 +227,15 @@ body {
 }
 .hrform1{
     color: #D9D9D9;
-    width: 110%;
+    width: 85%;
     opacity: 1;
     height: 5px;
-    margin-left: -10%;
+    margin-left: 0px !important;
 }
 .hrform2{
-    position: absolute;
-    margin-top: 44px;
-    width: 100%;
+    
+    
+    width: 85%;
     margin-left: 0.2%;
     height: 5px;
     color: #D9D9D9;
@@ -224,7 +243,7 @@ body {
 }
 
 .retangulo ul {
-    padding-left: 100px;
+    padding-left: ;
 }
 
 .retangulo2 ul {
@@ -300,8 +319,9 @@ footer {
 input[type="radio"] {
     width: 30px;
     height: 30px;
-    margin-left: 55px;
+    margin-left: 40px;
     z-index: 0;
+    margin-top: 0px !important;
     
     
 }
