@@ -99,8 +99,12 @@ def autoavaliacao():
         cargo = calcular_cargo(scrum_carac1, scrum_carac2, scrum_carac3, scrum_carac4,
                               product_owner_carac1, product_owner_carac2, product_owner_carac3, product_owner_carac4,
                               dev_team_carac1, dev_team_carac2, dev_team_carac3, dev_team_carac4)
-        return render_template('resultado.html', cargo=cargo, form=form)
-    
+        if (cargo == 'Scrum Master'):
+            return render_template('master.html', cargo=cargo, form=form)
+        if (cargo == 'Product Owner'):
+            return render_template('productowner.html', cargo=cargo, form=form)
+        if (cargo == 'Dev Team'):
+            return render_template('dev.html', cargo=cargo, form=form)
     return render_template('formulário.html', form=form)
 
 def calcular_cargo(scrum_carac1, scrum_carac2, scrum_carac3, scrum_carac4, 

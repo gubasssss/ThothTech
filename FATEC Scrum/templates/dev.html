@@ -3,6 +3,7 @@
 {% block title %} Dev Team {% endblock %}
 {% block content %}
 
+
 <main>
     <hr class="bordaVerde" style="margin-top: -10px;">
     <div class="retangulologo imgcargo" style="width: 400px;">
@@ -14,7 +15,11 @@
     </div>
     <div class="retangulo" style="width: 75%; height: auto;">
         <p class="Titulo">
-            O que é o Time de Desenvolvimento
+            {% if cargo == 'Dev Team' %}
+                O que é o Time de Desenvolvimento
+            {% else %}
+                O que é o Time de Desenvolvimento
+            {% endif %}
         </p>
         <p class="Texto">
             Na metodologia Scrum, o Time de Desenvolvimento é um dos três papéis essenciais dentro de uma equipe Scrum.
