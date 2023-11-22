@@ -7,7 +7,7 @@ Nesta quarta Sprint o foco foi finalizar detalhes para deixar o produto final co
 ## 🪄Frontend
 
 <ul>
-<li>Estilização do Site</li>]
+<li>Estilização do Site</li>
 <li>Página de Resultados Criada</li>
 <li>Arrumamos o Dropdown</li>
 </ul>
