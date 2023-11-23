@@ -4,6 +4,25 @@
 {% block content %}
 
 <main>
+    {% if cargo == 'Scrum Master' %}
+          <!-- Modal -->
+  <div class="modal fade show" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Scrum Master</h1>
+        </div>
+        <div class="modal-body">
+          Com base nos seus resultados, você tem potencial para ser o Scrum Master da sua equipe!
+        </div>
+        <div class="modal-footer">
+            <a href="{{ url_for('alternar_cargo_master') }}"><button type="button" class="btn btn-secondary">Fechar</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+    {% endif %}
+
     <hr class="bordaVerde" style="margin-top: -10px;">
     <div class="retangulologo imgcargo" style="width: 400px;">
         <img src="{{ url_for('static', filename='IMG/Scrum Master Rodapé.png')}}"
