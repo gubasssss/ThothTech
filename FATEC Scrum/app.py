@@ -39,6 +39,21 @@ def cerimonias():
 def metodoagil():
     return render_template('metodoagil.html')
 
+@app.route('/devR')
+def alternar_cargo_dev():
+    cargo = ''
+    return render_template('dev.html', cargo=cargo)
+
+@app.route('/productownerR')
+def alternar_cargo_po():
+    cargo = ''
+    return render_template('productowner.html', cargo=cargo)
+
+@app.route('/masterR')
+def alternar_cargo_master():
+    cargo = ''
+    return render_template('master.html', cargo=cargo)
+
 
 
 
