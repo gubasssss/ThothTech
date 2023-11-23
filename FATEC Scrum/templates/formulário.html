@@ -4,6 +4,25 @@
 {% block content %}
 
 <main>
+    {% if cargo == 'Empate' %}
+    <!-- Modal -->
+<div class="modal fade show" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+  <div class="modal-header">
+    <h1 class="modal-title fs-5" id="exampleModalLabel">Igual</h1>
+  </div>
+  <div class="modal-body">
+    Com base nos seus resultados, você tem potencial para qualquer cargo dentro da metodologia Scrum!
+  </div>
+  <div class="modal-footer">
+      <a href="/formulário"><button type="button" class="btn btn-secondary">Fechar</button></a>
+  </div>
+</div>
+</div>
+</div>
+    {% endif %}
+
     <hr class="bordaVerde" style="margin-top: -4px;">
     <span class="container">
         <div class="row">
@@ -336,7 +355,6 @@
                                     <input type="radio" name="scrum_carac1" value="4" id="scrum_carac1_4" required>
                                     <label for="scrum_carac1_4"><p>4</p></label>
                                 </td>
-                            
                             </tr>
                             <hr class="hrform1">
                             <li>

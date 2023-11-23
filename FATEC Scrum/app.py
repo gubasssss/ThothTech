@@ -56,7 +56,6 @@ def alternar_cargo_master():
 
 
 
-
 class AvaliacaoForm(FlaskForm):
     scrum_carac1 = RadioField('Característica 1', choices=[('1', '1'), ('2', '2'), ('3', '3'), ('4', '4')],
                              validators=[validators.InputRequired()])
@@ -120,6 +119,8 @@ def autoavaliacao():
             return render_template('productowner.html', cargo=cargo, form=form)
         if (cargo == 'Dev Team'):
             return render_template('dev.html', cargo=cargo, form=form)
+        if (cargo == 'Empate'):
+            return render_template('formulário.html', cargo=cargo, form=form)
     return render_template('formulário.html', form=form)
 
 def calcular_cargo(scrum_carac1, scrum_carac2, scrum_carac3, scrum_carac4, 

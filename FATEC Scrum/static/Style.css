@@ -1,3 +1,7 @@
+html {
+    overflow-x: hidden;
+}
+
 header {
     display: flex;
     flex-direction: row;
@@ -232,8 +236,6 @@ body {
     margin-left: 0px !important;
 }
 .hrform2{
-    
-    
     width: 85%;
     margin-left: 0.2%;
     height: 5px;
@@ -242,7 +244,7 @@ body {
 }
 
 .retangulo ul {
-    padding-left: ;
+    /*  padding-left: ;*/
 }
 
 .retangulo2 ul {
@@ -331,4 +333,17 @@ label {
 .titulomargin
 {
     margin-top: 60px;
+}
+
+body.modal-open {
+    overflow: hidden;
+}
+
+.modal-backdrop {
+    display: none;
+}
+
+#exampleModal {
+    display: block;
+    background: rgba(0, 0, 0, 0.5);
 }
