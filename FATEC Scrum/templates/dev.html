@@ -3,7 +3,43 @@
 {% block title %} Dev Team {% endblock %}
 {% block content %}
 
+
 <main>
+    <style>
+        body.modal-open {
+          overflow: hidden;
+        }
+      
+        .modal-backdrop {
+          display: none;
+        }
+      
+        #exampleModal {
+          display: block;
+          background: rgba(0, 0, 0, 0.5);
+        }
+      </style>
+    {% if cargo == 'Dev Team' %}
+          <!-- Modal -->
+  <div class="modal fade show" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Product Owner</h1>
+        </div>
+        <div class="modal-body">
+          Com base nos seus resultados, você tem potencial para ser um ótimo PO.
+        </div>
+        <div class="modal-footer">
+            <a href="{{ url_for('alternar_cargo_dev') }}"><button type="button" class="btn btn-secondary">Fechar</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+    {% else %}
+
+    {% endif %}
+
     <hr class="bordaVerde" style="margin-top: -10px;">
     <div class="retangulologo imgcargo" style="width: 400px;">
         <img src="{{ url_for('static', filename='IMG/DevTeamRodape.png')}}" alt="DevTeamRodape"
@@ -14,7 +50,7 @@
     </div>
     <div class="retangulo" style="width: 75%; height: auto;">
         <p class="Titulo">
-            O que é o Time de Desenvolvimento
+            O que é time de desenvolvimento
         </p>
         <p class="Texto">
             Na metodologia Scrum, o Time de Desenvolvimento é um dos três papéis essenciais dentro de uma equipe Scrum.
