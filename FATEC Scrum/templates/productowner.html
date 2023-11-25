@@ -24,83 +24,158 @@
     {% endif %}
 
     <hr class="bordaVerde" style="margin-top: -10px;">
-    <div class="retangulologo imgcargo" style="width: 400px;">
-        <img src="{{ url_for('static', filename='IMG/Product Owner Rodapé.png')}}"
-            style="width: auto; height: auto; margin-top: 1%; margin-left: 30%;">
-        <p class="Titulo titulocargo" style="padding-left: 28%; ">
-            Product Owner
-        </p>
-    </div>
-    <div class="retangulo" style="height: auto; width: 75%;">
-        <p class="Titulo">
-            O que é Product Owner
-        </p>
-        <p class="Texto">
-            O Product Owner desempenha um papel crítico na metodologia Scrum, sendo o principal responsável pela
-            definição e priorização do trabalho a ser realizado pela equipe de desenvolvimento.
-        </p>
-    </div>
 
-    <hr style="color: #D9D9D9; margin-top: 50px;">
+    <span class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <div class="card card-custom" style="background-color: #085c6c !important;">
+                   
+                    
+                    <div class="card-body">
+                        
+                    <div style="margin-left: 5%;">
+                        <img src="{{ url_for('static', filename='IMG/Product Owner Rodapé.png')}}"
+                        style="width: auto; height: auto;">
+                    <p class="Titulo titulocargo" style=" margin-bottom: 30px; ">
+                        Product Owner
+                    </p>
+                </div>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="background-color:#085c6c !important;">
+                            <h5 class="card-title Titulo"> O que é Product Owner</h5>
+                          </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                          <p class="card-text Texto" style="color: black !important;" > O <strong>Product Owner</strong> desempenha um papel crítico na metodologia Scrum, sendo o principal responsável pela
+                            definição e priorização do trabalho a ser realizado pela equipe de desenvolvimento.
+                          </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+              
+                    
+                      
+                    </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </span>
 
-    <div class="wrapper">
-        <div class="retangulo2" style="width: 75%; height: auto;">
-            <p class="Titulo">
-                Qual a Função do Product Owner
-            </p>
-            <ul>
-                <li>
 
-                    <p class="TextoLista">
-                        Definir e Priorizar o Backlog do Produto: O Product Owner é responsável por criar e manter o
-                        backlog do produto. Isso envolve a identificação de funcionalidades, requisitos e itens de
-                        trabalho necessários para o produto. Além disso, o Product Owner prioriza esses itens de acordo
-                        com seu valor para o cliente e o negócio.
-                    </p>
-                </li>
-                <p></p>
-                <li>
-                    <p class="TextoLista">
-                        Comunicar a Visão do Produto: O Product Owner é responsável por comunicar de maneira clara a
-                        visão do produto para a equipe de desenvolvimento e demais partes interessadas. Eles garantem
-                        que todos compreendam o propósito do produto e seus objetivos.
-                    </p>
-                </li>
-                <p></p>
-                <li>
-                    <p class="TextoLista">
-                        Tomar Decisões sobre o Produto: O Product Owner toma decisões importantes sobre o que deve ser
-                        desenvolvido, a ordem de prioridade das tarefas e o que deve ser entregue em cada Sprint. Eles
-                        têm a autoridade final para determinar o que a equipe de desenvolvimento trabalhará.
-                    </p>
-                </li>
-                <p></p>
-                <li>
-                    <p class="TextoLista">
-                        Ser o Voz do Cliente: O Product Owner representa os interesses do cliente e dos stakeholders.
-                        Eles entendem as necessidades e expectativas dos clientes e trabalham para garantir que o
-                        produto atenda a essas necessidades.
-                    </p>
-                </li>
-                <p></p>
-                <li>
-                    <p class="TextoLista">
-                        Participar do Planejamento da Sprint: Durante o planejamento da Sprint, o Product Owner colabora
-                        com a equipe de desenvolvimento para selecionar itens do backlog do produto a serem incluídos na
-                        Sprint atual. Eles explicam os detalhes dos itens selecionados e esclarecem dúvidas da equipe
-                    </p>
-                </li>
-                <p></p>
-                <li>
-                    <p class="TextoLista">
-                        Adaptar o Backlog: À medida que o produto evolui e as necessidades do cliente mudam, o Product
+    <hr style="color: #181444; margin-top: 50px;">
+
+
+
+    <span class="container" >
+        <div class="row">
+            <div class="d-flex justify-content-center align-items-center">
+            <div class="col-md-7">
+                <div class="card card-custom" >
+                    <div class="d-flex justify-content-center align-items-center">
+                    
+                    <div class="card-body">
+                      <h5 class="card-title Titulo">Qual a Função do Product Owner</h5>
+                      
+                        <div class="accordion" id="accordionPanelsStayOpenExample" style="width: auto;">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                Definir e Priorizar o Backlog do Produto
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                O Product Owner é responsável por criar e manter o
+                                backlog do produto. Isso envolve a identificação de funcionalidades, requisitos e itens de
+                                trabalho necessários para o produto. Além disso, o Product Owner prioriza esses itens de acordo
+                                com seu valor para o cliente e o negócio.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                Comunicar a Visão do Produto
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                O Product Owner é responsável por comunicar de maneira clara a
+                                visão do produto para a equipe de desenvolvimento e demais partes interessadas. Eles garantem
+                                que todos compreendam o propósito do produto e seus objetivos.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                Tomar Decisões sobre o Produto
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                O Product Owner toma decisões importantes sobre o que deve ser
+                                desenvolvido, a ordem de prioridade das tarefas e o que deve ser entregue em cada Sprint. Eles
+                                têm a autoridade final para determinar o que a equipe de desenvolvimento trabalhará.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                                Ser a Voz do Cliente
+                              </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+                              <div class="accordion-body">
+                                O Product Owner representa os interesses do cliente e dos stakeholders.
+                                Eles entendem as necessidades e expectativas dos clientes e trabalham para garantir que o
+                                produto atenda a essas necessidades.
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+                                Participar do Planejamento da Sprint
+                              </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse">
+                              <div class="accordion-body">
+                                Durante o planejamento da Sprint, o Product Owner colabora
+                                com a equipe de desenvolvimento para selecionar itens do backlog do produto a serem incluídos na
+                                Sprint atual. Eles explicam os detalhes dos itens selecionados e esclarecem dúvidas da equipe
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
+                                Adaptar o Backlog
+                              </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse">
+                              <div class="accordion-body">
+                                À medida que o produto evolui e as necessidades do cliente mudam, o Product
                         Owner ajusta o backlog do produto para refletir essas mudanças. Eles estão constantemente
                         refinando e adaptando o trabalho planejado.
-                    </p>
-                </li>
-            </ul>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+            </div>
         </div>
-    </div>
+        </div>
+    </span>
+
 </main>
 
 {% endblock %}

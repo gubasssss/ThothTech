@@ -24,7 +24,9 @@ body {
 
 @media only screen and (max-width:611px){
     input[type="radio"] {
-        margin-left: 15px !important;
+        margin-left: 0px !important;
+        width: auto !important;
+        height: auto;
     }
 
 }
@@ -40,10 +42,6 @@ body {
         width: 250px !important;
        
     }
-    .titulocargo{
-        padding-left: 42% !important ;
-        text-align: center;
-    }
     .retangulo2{
         width: 100% !important;
     }
@@ -51,7 +49,9 @@ body {
         padding-left: 5% !important ;
         
     }
-    
+    .card-img-top{
+        display: none !important;
+    }
     .cps{
        opacity: 0;
        z-index: -4;
@@ -60,13 +60,15 @@ body {
 
 @media only screen and (max-width:600px){
     .setaf{
-        width: 100% !important;
+        width: 100 !important;
+        margin: 0px !important;
     }
 }
 @media only screen and (max-width:918px){
     .quadrado1{
         display: none;
     }
+    
 }
 @media only screen and (min-width: 768px) and (max-width:1028px){
     .mediaretangulo2{
@@ -185,10 +187,10 @@ body {
 }
 
 .Titulo {
-    padding: 50px;
-    padding-bottom: 0px;
+    color: white !important;
+    padding-bottom: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 22pt;
+    font-size: 19pt;
 }
  .Subtitulo {
     padding-top: 0;
@@ -198,10 +200,22 @@ body {
     font-size: 19pt;
 } 
 
+.card-custom {
+    width: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color:#085c6c !important;
+    border-radius: 15px !important;
+}
+
  .Texto {
-    margin: 50px;
-    font-size: 18pt;
+    width: 85%;
+    text-align: left;
+    font-size: 13pt;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
 }
 .TextoSublinhado{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -243,9 +257,7 @@ body {
     opacity: 1;
 }
 
-.retangulo ul {
-    /*  padding-left: ;*/
-}
+
 
 .retangulo2 ul {
     padding-left: 100px;
@@ -272,12 +284,7 @@ footer {
     font-size: 16pt;
 }
 
-.alinhaMeio {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
+
 .linka {
     color: rgb(0, 0, 0);
     font-size: 16pt;
@@ -320,7 +327,7 @@ footer {
 input[type="radio"] {
     width: 30px;
     height: 30px;
-    margin-left: 40px;
+    margin-left: 0px;
     z-index: 0;
     margin-top: 0px !important;
     
