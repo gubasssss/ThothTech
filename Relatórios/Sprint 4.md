@@ -64,7 +64,7 @@ Nesta quarta Sprint o foco foi finalizar detalhes para deixar o produto final co
 
 
 ## 👓Sprint Review
-[Apresentação Sprint 4]
+[Apresentação Sprint 4](https://github.com/gubasssss/ThothTech/files/13464690/Apresentacao.Sprint.4.pptx)
 
 
 
