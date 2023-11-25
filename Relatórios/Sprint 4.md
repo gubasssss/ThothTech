@@ -2,7 +2,7 @@
 
 # 📄Relatório Sprint - 04 (26/11)
 
-Nesta quarta Sprint o foco foi finalizar detalhes para deixar o produto final completo
+Nesta quarta Sprint o foco foi finalizar detalhes para deixar o produto final completo e hospedado
 
 ## 🪄Frontend
 
@@ -10,12 +10,14 @@ Nesta quarta Sprint o foco foi finalizar detalhes para deixar o produto final co
 <li>Estilização do Site</li>
 <li>Página de Resultados Criada</li>
 <li>Arrumamos o Dropdown</li>
+<li>Adição de Conteudo</li>
 </ul>
 
 ## ⌨️Backend
 
 <ul>
 <li>Site Inteiramente Responsivel</li>
+<li>Site Hospedado</li>
 </ul>
 
 <h2 aling="center"> 💻Tecnologias Utilizadas na Segunda Sprint </h2>
@@ -57,6 +59,7 @@ Nesta quarta Sprint o foco foi finalizar detalhes para deixar o produto final co
 
 
 ## 📃Backlog da sprint
+<img align=center src="https://github.com/gubasssss/ThothTech/assets/143751785/bccecfb8-7b35-4b97-bff9-17b8f53ea426"/>
 
 
 
