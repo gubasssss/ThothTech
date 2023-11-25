@@ -56,7 +56,7 @@
 | 3 | 11 | Eu,como cliente,quero um formulário avaliativo utilizando Python| Website   | 10h |:white_check_mark:          | 9 |
 | 4 | 12 | Eu,como cliente, quero um site responsivel para utilizar em telas e dispositivos diferentes| Website   | 8h |:white_check_mark:           | 8 |
 | 4 | 13 | Eu,como cliente, quero um site hospedado na internet e possa ser acessado facilmene| Website   | 2h |:white_check_mark:           | 4 |
-| 4 | 14 | Eu,como cliente, quero toda documentação do API organizada| Website   | 8h |:white_check_mark:             | 5 |
+| 4 | 14 | Eu,como cliente, quero toda documentação do API organizada| Backlog	   | 8h |:white_check_mark:             | 5 |
 | 4 | 15 | Eu,como cliente, quero ter uma experiencia coesa e funcional no site | Website   | 9h |:white_check_mark:            | 6 |
 
 <span id="sprint">
