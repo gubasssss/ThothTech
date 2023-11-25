@@ -6,74 +6,109 @@
 <main>
     <hr class="bordaVerde" style="margin-top: -10px;">
 
-    <span class="gridContainer">
-        <div class="quadrado" style=" margin-left: auto; margin-right: auto;">
-            <img src="{{ url_for('static', filename='IMG/artefato png.png')}}" alt="ArtefatosPng"
-                style="margin-top: 8%; margin-left: 17%;">
-            <p class="Titulo" style=" padding: 0; ; font-size: 25pt; margin-top: 12px; text-align: center;">
-                Artefatos do Scrum
-            </p>
+    <span class="container">
+        <div class="row">
+            <div class="d-flex justify-content-center align-items-center">
+            <div class="col-md-7">
+                <div class="card card-custom" style="background-color: #085c6c !important;">
+                   
+                    
+                    <div class="card-body">
+                        
+                    
+                        <img src="{{ url_for('static', filename='IMG/artefato png.png')}}"
+                        style="width: auto; height: auto;">
+                    <p class="Titulo titulocargo" style=" margin: 20px; ">
+                        Artefatos do Scrum
+                    </p>
+                
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="background-color:#085c6c !important;">
+                            <h5 class="card-title Titulo"> Product Backlog</h5>
+                          </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                          <p class="card-text Texto" style="color: black !important;" > O Backlog do Produto é uma lista dinâmica de todos os requisitos, funcionalidades e melhorias desejadas
+                            para o projeto. Ele é priorizado pelo Proprietário do Produto, que trabalha em estreita colaboração com
+                            o cliente para garantir que os itens mais importantes estejam no topo da lista.<br>
+                            O Product Backlog é uma ferramenta essencial para garantir que a equipe de desenvolvimento esteja focada
+                            em entregar o máximo valor possível ao cliente e ao negócio, à medida que o produto evolui ao longo do
+                            tempo. Ele desempenha um papel crítico na gestão ágil do escopo do projeto e na adaptação contínua às
+                            necessidades do cliente.<br>
+                            Imagine que estamos desenvolvendo um software de e-commerce. No Backlog do Produto, podemos listar itens
+                            como "permitir aos clientes criar uma conta," "implementar um carrinho de compras" e "introduzir um
+                            sistema de avaliações de produtos." Esses itens são priorizados com base nas necessidades do negócio e
+                            nos requisitos dos clientes.
+                          </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion" id="accordionExample" style="margin-top: 9px;">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo" style="background-color:#085c6c !important;">
+                                <h5 class="card-title Titulo">Sprint Backlog</h5>
+                              </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                              <p class="card-text Texto" style="color: black !important;" >O Sprint Backlog é uma seleção das tarefas do Backlog do Produto que a equipe se compromete a concluir
+                                durante um Sprint específico. Essas tarefas são escolhidas durante a reunião de Planejamento da Sprint e
+                                representam o trabalho que a equipe planeja realizar na iteração.<br>
+                                Os itens do Sprint Backlog são detalhados o suficiente para que a equipe de desenvolvimento saiba
+                                exatamente o que fazer para completá-los. Isso pode incluir quebrar os itens em tarefas menores, criar
+                                designs ou especificações mais detalhadas, ou qualquer outra informação necessária para realizar o
+                                trabalho.
+                                Imagine que uma equipe de desenvolvimento de software está trabalhando em um sistema de gerenciamento de
+                                projetos. Durante o Planejamento da Sprint, a equipe seleciona tarefas específicas do Backlog do Produto
+                                para incluir no Sprint Backlog. Por exemplo "Criar a página de perfil do usuário com informações
+                                personalizáveis.
+                              </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="accordion" id="accordionExample" style="margin-top: 9px;">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree" style="background-color:#085c6c !important;">
+                                    <h5 class="card-title Titulo">Incremento</h5>
+                                  </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                  <p class="card-text Texto" style="color: black !important;" >Os Incrementos são versões funcionais e potencialmente utilizáveis do produto que resultam da conclusão
+                                    de cada Sprint. Eles representam o trabalho concluído durante a iteração e devem ser testáveis e
+                                    entregáveis.<br>
+                                    Imagine que após a conclusão de um Sprint em que a equipe trabalhou na funcionalidade de login com
+                                    autenticação segura, o Incremento resultante é uma parte funcional do sistema que pode ser testada e
+                                    usada pelos usuários finais. Os Incrementos são acumulativos, o que significa que a cada Sprint, novas
+                                    funcionalidades e melhorias são adicionadas ao produto, levando a um sistema cada vez mais completo e
+                                    útil. Esse processo contínuo de entrega de Incrementos permite que os clientes vejam o progresso
+                                    regularmente e forneçam feedback valioso ao longo do projeto.
+                                  </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                </div>
+                    
+                      
+                    </div>
+                    </div>
+                  </div>
+            </div>
         </div>
     </span>
 
-    <span class="gridContainer">
-        <div class="retangulo3" style="margin-left: auto; margin-right: auto; height: auto">
-            <p class="Titulo" style=" text-align: center; align-items: center; justify-content: center; margin-top: 0;">
-                Product Backlog
-            </p>
-            <p class="Texto">
-                O Backlog do Produto é uma lista dinâmica de todos os requisitos, funcionalidades e melhorias desejadas
-                para o projeto. Ele é priorizado pelo Proprietário do Produto, que trabalha em estreita colaboração com
-                o cliente para garantir que os itens mais importantes estejam no topo da lista.<br>
-                O Product Backlog é uma ferramenta essencial para garantir que a equipe de desenvolvimento esteja focada
-                em entregar o máximo valor possível ao cliente e ao negócio, à medida que o produto evolui ao longo do
-                tempo. Ele desempenha um papel crítico na gestão ágil do escopo do projeto e na adaptação contínua às
-                necessidades do cliente.<br>
-                Imagine que estamos desenvolvendo um software de e-commerce. No Backlog do Produto, podemos listar itens
-                como "permitir aos clientes criar uma conta," "implementar um carrinho de compras" e "introduzir um
-                sistema de avaliações de produtos." Esses itens são priorizados com base nas necessidades do negócio e
-                nos requisitos dos clientes.
-            </p>
-        </div>
-    </span>
-    <span class="gridContainer">
-        <div class="retangulo3" style="margin-left: auto; margin-right: auto; height: auto">
-            <p class="Titulo" style=" text-align: center; align-items: center; justify-content: center; margin-top: 0;">
-                Sprint Backlog
-            </p>
-            <p class="Texto">
-                O Sprint Backlog é uma seleção das tarefas do Backlog do Produto que a equipe se compromete a concluir
-                durante um Sprint específico. Essas tarefas são escolhidas durante a reunião de Planejamento da Sprint e
-                representam o trabalho que a equipe planeja realizar na iteração.<br>
-                Os itens do Sprint Backlog são detalhados o suficiente para que a equipe de desenvolvimento saiba
-                exatamente o que fazer para completá-los. Isso pode incluir quebrar os itens em tarefas menores, criar
-                designs ou especificações mais detalhadas, ou qualquer outra informação necessária para realizar o
-                trabalho.
-                Imagine que uma equipe de desenvolvimento de software está trabalhando em um sistema de gerenciamento de
-                projetos. Durante o Planejamento da Sprint, a equipe seleciona tarefas específicas do Backlog do Produto
-                para incluir no Sprint Backlog. Por exemplo "Criar a página de perfil do usuário com informações
-                personalizáveis.".
-            </p>
-        </div>
-    </span>
-    <span class="gridContainer">
-        <div class="retangulo3" style="margin-left: auto; margin-right: auto; height: auto">
-            <p class="Titulo" style=" text-align: center; align-items: center; justify-content: center; margin-top: 0;">
-                Incremento
-            </p>
-            <p class="Texto">
-                Os Incrementos são versões funcionais e potencialmente utilizáveis do produto que resultam da conclusão
-                de cada Sprint. Eles representam o trabalho concluído durante a iteração e devem ser testáveis e
-                entregáveis.<br>
-                Imagine que após a conclusão de um Sprint em que a equipe trabalhou na funcionalidade de login com
-                autenticação segura, o Incremento resultante é uma parte funcional do sistema que pode ser testada e
-                usada pelos usuários finais. Os Incrementos são acumulativos, o que significa que a cada Sprint, novas
-                funcionalidades e melhorias são adicionadas ao produto, levando a um sistema cada vez mais completo e
-                útil. Esse processo contínuo de entrega de Incrementos permite que os clientes vejam o progresso
-                regularmente e forneçam feedback valioso ao longo do projeto.
-            </p>
-        </div>
-    </span>
+
+   
 
 </main>
 {% endblock %}

@@ -24,70 +24,82 @@
     {% endif %}
 
     <hr class="bordaVerde" style="margin-top: -4px;">
-    <span class="container">
+
+    <span class="gridContainer">
         <div class="row">
-            <div class="col-md-6">
-                <div class="d-flex justify-content-center align-items-center">
-        <div class="quadradorosa" style="width: 500px; height: auto;  margin-top: 40px; text-align: center;">
-            <p class="Letra do Titul0 do Autoformulario"
-                style=" font-size: 35pt; color: white; font-style: italic; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; ">
-                Autoavaliação Scrum
-            </p>
-        </div>
-        </div>
-            <div class="retangulo" style=" height: auto; margin-left: -15px;">
-                <p class="Texto" style="font-size: 21pt;">
-                    Este questionário consiste em uma série de perguntas que abrangem os princípios e práticas do Scrum. Ao
-                    responder a essas perguntas com sinceridade, você terá uma visão mais clara do desempenho da sua equipe
-                    em áreas como comunicação, colaboração, transparência e entrega de valor.
-                    A autoavaliação do Scrum é um passo importante em direção ao aperfeiçoamento contínuo. Lembre-se de que
-                    não há respostas "certas" ou "erradas" aqui. O objetivo é entender onde você está hoje e definir metas
-                    para evoluir ainda mais como equipe Scrum.
-                </p>
+            <div class="d-flex justify-content-center align-items-center">
+            <div class="col-md-9">
+                <div class="card card-custom" style="background-color: #FC5159 !important;" >
+                    <div class="d-flex justify-content-center align-items-center">
+                    
+                    <div class="card-body">
+                      <h5 class="card-title Titulo" style="font-size: 23pt;">Autoavaliação Scrum</h5>
+                      <p class="card-text Texto">Este questionário consiste em uma série de perguntas que abrangem os princípios e práticas do Scrum. Ao
+                        responder a essas perguntas com sinceridade, você terá uma visão mais clara do desempenho da sua equipe
+                        em áreas como comunicação, colaboração, transparência e entrega de valor.
+                        A autoavaliação do Scrum é um passo importante em direção ao aperfeiçoamento contínuo. Lembre-se de que
+                        não há respostas "certas" ou "erradas" aqui. O objetivo é entender onde você está hoje e definir metas
+                        para evoluir ainda mais como equipe Scrum.</p>
+                      
+                    </div>
+                    <img src="{{ url_for('static', filename='IMG/autoavaliaçãopng.png')}}" class="card-img-top" alt="..." style="width: 25%; margin: 20px; border-radius: 10px !important;">
+                    </div>
+                  </div>
             </div>
-        </div>
-        <div class="col-md-6">
-        <div style="float: left;">
-            <img src="{{ url_for('static', filename='IMG/autoavaliaçãopng.png')}}" alt="Formulario"
-                style="width: 600px; ; z-index: 1;" class="autoavaimg">
-        </div>
         </div>
         </div>
     </span>
+
+
+   
      
 
     <hr style="width: 100%;">
 
     <span class="container">
         <div class="row">
-            <div class="col">
+            <div class="d-flex justify-content-center align-items-center">
+            <div class="col-md-4">
+                <div class="card" style="margin: 3%;">
     <img src="{{ url_for('static', filename='IMG/setaformulario.png')}}" alt="setaformulario" class="alinhaMeio setaf"
-        style="margin-top: 4%; width: auto; height: auto;">
-    <p class="alinhaMeio" style=" font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: 20pt;
-        margin-top: 4%;
-        font-style:italic;
-        text-decoration: underline ;
-        text-align: center;">
+        style="margin-top: 4%; width: 100%; height: auto;">
+    <p class="Titulo" style=" color: black !important; text-align: center; font-size: 20pt !important; margin: 3px; ">
         <b>Avalie você mesmo em cada categoria, onde 1 é a nota mais baixa e 4 a mais alta.</b>
     </p>
     <div class="d-flex justify-content-center align-items-center">
-    <ul style="margin-top: 40px;">
-        <li>
-            <p class="TextoSublinhado"><b>1 = Precisa de Melhoria</b></p>
-        </li>
-        <li>
-            <p class="TextoSublinhado"><b>2 = Abaixo das Expectativas</b></p>
-        </li>
-        <li>
-            <p class="TextoSublinhado"><b>3 = Atende às Expectativas</b></p>
-        </li>
-        <li>
-            <p class="TextoSublinhado"><b>4 = Excelente</p>
-        </li>
-    </ul>
+        <div class="accordion" id="accordionExample" >
+            <div class="accordion-item" >
+                <h2 class="accordion-header" >
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="background-color: #FC5159 !important;">
+                    <h5 class="card-title Titulo" > Descrição das Notas</h5>
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                  <p class="card-text Texto" style="color: black !important;" >
+                    <ul style="margin-top: 40px;">
+                        <li>
+                            <p class="Texto" style="color: black !important; font-size: 19pt !important; "><b>1 = Precisa de Melhoria</b></p>
+                        </li>
+                        <li>
+                            <p class="Texto" style="color: black !important; font-size: 19pt !important;"><b>2 = Abaixo das Expectativas</b></p>
+                        </li>
+                        <li>
+                            <p class="Texto" style="color: black !important; font-size: 19pt !important;"><b>3 = Atende às Expectativas</b></p>
+                        </li>
+                        <li>
+                            <p class="Texto" style="color: black !important; font-size: 19pt !important;"><b>4 = Excelente</p>
+                        </li>
+                    </ul>
+                  </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
     </div>
-
+    </div>
+    </div>
     </div>
     </div>
     </span>
@@ -423,7 +435,7 @@
        
            
             <div class="d-flex justify-content-center align-items-center">
-                    <div class="d-grid gap-2 col-6 " style="height: 50px;">
+                    <div class="d-grid gap-2 col-6 " style="height: 50px; margin-bottom: 40px;">
 
                         <button class="btn btn-outline-success" type="submit">Submeter Autoavaliação </button>
                     </div>

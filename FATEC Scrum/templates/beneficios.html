@@ -5,73 +5,119 @@
 
 <main>
     <hr class="bordaVerde" style="margin-top: -10px;">
-    <span class="gridContainer">
-        <div class="quadrado" style=" margin-left: auto; margin-right: auto;">
-            <img src="{{ url_for('static', filename='IMG/beneficios.png')}}" alt="ArtefatosPng"
-                style="margin-top: 8%; margin-left: 17%;">
-            <p class="Titulo" style=" padding: 0; margin-left: 4%; font-size: 25pt; margin-top: px; text-align: center;">
-                Benefícios do Scrum
-            </p>
-        </div>
-    </span>
-    <span class="wrapper" style="justify-content:center ;">
-        <div class="retangulo3">
-            <p class="Titulo" style="text-align: center;">Entrega Incremental</p>
-            <p class="Texto">
-                O Scrum permite entregas frequentes de Incrementos funcionais, possibilitando que os clientes acessem
-                novas funcionalidades regularmente. Isso promove a satisfação do cliente, a visibilidade do progresso e
-                a capacidade de fazer ajustes conforme as necessidades mudam.<br>
-                Em um projeto de desenvolvimento de software, os clientes podem começar a usar funcionalidades como
-                "login seguro" e "notificações por e-mail" após o primeiro Sprint. Mesmo que o projeto esteja em
-                andamento, os usuários já podem desfrutar dessas funcionalidades, obtendo valor imediato. Isso também
-                permite que a equipe receba feedback valioso cedo, o que pode influenciar o desenvolvimento subsequente
-                e garantir que as necessidades do cliente sejam atendidas.
-            </p>
-        </div>
-    </span>
-    <span class="wrapper" style="justify-content:center ;">
-        <div class="retangulo3">
-            <p class="Titulo" style="text-align: center;">Adaptação</p>
-            <p class="Texto">
-                O Scrum é flexível e permite que a equipe se adapte a mudanças nos requisitos do cliente ao final de
-                cada Sprint. Isso evita a rigidez dos planos de projeto tradicionais e permite que a equipe se ajuste às
-                necessidades em constante evolução.<br>
-                Se, durante o projeto, os requisitos do cliente mudarem, a equipe pode facilmente priorizar novas
-                funcionalidades no Backlog do Produto para o próximo Sprint. Suponha que o cliente decida que uma nova
-                funcionalidade de colaboração é essencial para o sucesso do software. A equipe pode rapidamente
-                incorporar essa funcionalidade no próximo Sprint, garantindo que o produto continue a atender às
-                expectativas do cliente, mesmo diante de mudanças.
-            </p>
-        </div>
-    </span>
-    <span class="wrapper" style="justify-content:center ;">
-        <div class="retangulo3">
-            <p class="Titulo" style="text-align: center;">Colaboração Efetiva</p>
-            <p class="Texto">
-                O Scrum promove a colaboração próxima entre os membros da equipe e os clientes, resultando em produtos
-                que atendem às reais necessidades dos clientes. A comunicação constante e a transparência são essenciais
-                para o sucesso do Scrum.<br>
-                O trabalha em estreita colaboração com a equipe de desenvolvimento para garantir que o Backlog do
-                Produto seja priorizado de acordo com as necessidades do cliente. Isso envolve reuniões regulares,
-                discussões de requisitos e feedback contínuo. A equipe e o P.O estão alinhados em relação às metas e ao
-                valor a ser entregue. Isso resulta em um produto mais relevante e satisfatório para os usuários finais,
-                pois é moldado pela colaboração constante com todas as partes interessadas, garantindo que as reais
-                necessidades sejam atendidas.
-            </p>
-        </div>
-    </span>
 
-       
-    <span class="wrapper" style="justify-content:center;">
-        <div class="retangulo3" style="height: auto; margin-bottom: 50px;">
-            <p class="Titulo" style="text-align: center; ">Maior Qualidade</p>
-            <p class="Texto">
-                Esses benefícios do Scrum proporcionam uma abordagem dinâmica e eficaz para empresas de desenvolvimento
-                de software, permitindo que entreguem produtos de alta qualidade que atendam às expectativas dos
-                clientes e se adaptem a um ambiente de negócios em constante evolução.
-            </p>
+    <span class="container">
+        <div class="row">
+            <div class="d-flex justify-content-center align-items-center">
+            <div class="col-md-7">
+                <div class="card card-custom" style="background-color: #085c6c !important;">
+                   
+                    
+                    <div class="card-body">
+                        
+                    
+                        <img src="{{ url_for('static', filename='IMG/beneficios.png')}}"
+                        style="width: auto; height: auto;">
+                    <p class="Titulo titulocargo" style=" margin: 20px; ">
+                        Benefícios do Scrum
+                    </p>
+                
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="background-color:#085c6c !important;">
+                            <h5 class="card-title Titulo"> Entrega Incremental</h5>
+                          </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                          <p class="card-text Texto" style="color: black !important;" > O Scrum permite entregas frequentes de Incrementos funcionais, possibilitando que os clientes acessem
+                            novas funcionalidades regularmente. Isso promove a satisfação do cliente, a visibilidade do progresso e
+                            a capacidade de fazer ajustes conforme as necessidades mudam.<br>
+                            Em um projeto de desenvolvimento de software, os clientes podem começar a usar funcionalidades como
+                            "login seguro" e "notificações por e-mail" após o primeiro Sprint. Mesmo que o projeto esteja em
+                            andamento, os usuários já podem desfrutar dessas funcionalidades, obtendo valor imediato. Isso também
+                            permite que a equipe receba feedback valioso cedo, o que pode influenciar o desenvolvimento subsequente
+                            e garantir que as necessidades do cliente sejam atendidas.
+                          </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion" id="accordionExample" style="margin-top: 9px;">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo" style="background-color:#085c6c !important;">
+                                <h5 class="card-title Titulo">Adaptação</h5>
+                              </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                              <p class="card-text Texto" style="color: black !important;" >O Scrum é flexível e permite que a equipe se adapte a mudanças nos requisitos do cliente ao final de
+                                cada Sprint. Isso evita a rigidez dos planos de projeto tradicionais e permite que a equipe se ajuste às
+                                necessidades em constante evolução.<br>
+                                Se, durante o projeto, os requisitos do cliente mudarem, a equipe pode facilmente priorizar novas
+                                funcionalidades no Backlog do Produto para o próximo Sprint. Suponha que o cliente decida que uma nova
+                                funcionalidade de colaboração é essencial para o sucesso do software. A equipe pode rapidamente
+                                incorporar essa funcionalidade no próximo Sprint, garantindo que o produto continue a atender às
+                                expectativas do cliente, mesmo diante de mudanças.
+                              </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="accordion" id="accordionExample" style="margin-top: 9px;">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree" style="background-color:#085c6c !important;">
+                                    <h5 class="card-title Titulo">Colaboração Efetiva</h5>
+                                  </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                  <p class="card-text Texto" style="color: black !important;" >O Scrum promove a colaboração próxima entre os membros da equipe e os clientes, resultando em produtos
+                                    que atendem às reais necessidades dos clientes. A comunicação constante e a transparência são essenciais
+                                    para o sucesso do Scrum.<br>
+                                    O trabalha em estreita colaboração com a equipe de desenvolvimento para garantir que o Backlog do
+                                    Produto seja priorizado de acordo com as necessidades do cliente. Isso envolve reuniões regulares,
+                                    discussões de requisitos e feedback contínuo. A equipe e o P.O estão alinhados em relação às metas e ao
+                                    valor a ser entregue. Isso resulta em um produto mais relevante e satisfatório para os usuários finais,
+                                    pois é moldado pela colaboração constante com todas as partes interessadas, garantindo que as reais
+                                    necessidades sejam atendidas.
+                                  </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="accordion" id="accordionExample" style="margin-top: 9px;">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour" style="background-color:#085c6c !important;">
+                                        <h5 class="card-title Titulo">Maior Qualidade</h5>
+                                      </button>
+                                    </h2>
+                                    <div id="collapseFour" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                                      <div class="accordion-body">
+                                      <p class="card-text Texto" style="color: black !important;" >Esses benefícios do Scrum proporcionam uma abordagem dinâmica e eficaz para empresas de desenvolvimento
+                                        de software, permitindo que entreguem produtos de alta qualidade que atendam às expectativas dos
+                                        clientes e se adaptem a um ambiente de negócios em constante evolução.
+                                      </p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                </div>
+                    
+                      
+                    </div>
+                    </div>
+                  </div>
+            </div>
         </div>
-    </span>
+    
 </main>
 
 {% endblock %}

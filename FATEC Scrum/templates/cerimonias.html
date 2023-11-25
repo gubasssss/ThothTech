@@ -5,49 +5,91 @@
 
 <main>
     <hr class="bordaVerde" style="margin-top: -10px;">
-    <span class="gridContainer">
-        
-        <div class="quadrado" style=" margin-left: auto; margin-right: auto;">
-            <img src="{{ url_for('static', filename='IMG/cerimoniaScrum.png')}}" alt="ArtefatosPng"
-                style="margin-top: 8%; margin-left: 75px;" class="cerimonias">
-            <p class="Titulo" style=" padding: 0; font-size: 25pt; margin-top: 12px; text-align: center;">
-                Cerimonias Scrum
-            </p>
+
+    <span class="container">
+        <div class="row">
+            <div class="d-flex justify-content-center align-items-center">
+            <div class="col-md-7">
+                <div class="card card-custom" style="background-color: #085c6c !important;">
+                   
+                    
+                    <div class="card-body">
+                        
+                    
+                        <img src="{{ url_for('static', filename='IMG/cerimoniaScrum.png')}}"
+                        style="width: auto; height: auto;">
+                    <p class="Titulo titulocargo" style=" margin: 20px; ">
+                        Cerimonias Scrum
+                    </p>
+                
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="background-color:#085c6c !important;">
+                            <h5 class="card-title Titulo"> Planejamento da Sprint</h5>
+                          </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                          <p class="card-text Texto" style="color: black !important;" > No início da Sprint, o Time de Desenvolvimento e o Proprietário do Produto se reúnem para
+                            selecionar as tarefas que serão realizadas durante a Sprint.<br>
+                            Em uma equipe de desenvolvimento de software, o Planejamento da Sprint pode envolver a seleção de
+                            tarefas específicas, como "desenvolver funcionalidade de pagamento" e "implementar sistema de
+                            notificação por e-mail" para uma Sprint de 2 semanas.
+                          </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion" id="accordionExample" style="margin-top: 9px;">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo" style="background-color:#085c6c !important;">
+                                <h5 class="card-title Titulo">Retrospectiva da Sprint</h5>
+                              </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                              <p class="card-text Texto" style="color: black !important;" >No final da Sprint, a equipe apresenta o Incremento funcional resultante do trabalho da Sprint. P.O e os
+                                clientes fornecem feedback. Após a Revisão da Sprint, a equipe realiza uma retrospectiva para identificar melhorias no processo.
+                                Na Retrospectiva, a equipe pode discutir aprimoramentos como "melhorar a comunicação interna" e
+                                "aumentar a automação de testes" para otimizar o próximo Sprint.
+                              </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="accordion" id="accordionExample" style="margin-top: 9px;">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree" style="background-color:#085c6c !important;">
+                                    <h5 class="card-title Titulo">Reuniões Diárias (Daily Standup)</h5>
+                                  </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                  <p class="card-text Texto" style="color: black !important;" >As reuniões diárias, também conhecidas como "standup meetings," são encontros diários de curta duração
+                                    nos quais os membros da equipe compartilham o progresso, desafios e planos para o dia.<br>
+                                    Em uma equipe de desenvolvimento de software, a reunião diária pode envolver cada membro relatando o que
+                                    fez no dia anterior, o que planeja fazer no dia atual e quais obstáculos enfrenta. Essas reuniões mantêm
+                                    a equipe alinhada, identificam problemas rapidamente e facilitam a colaboração.
+                                  </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                </div>
+                    
+                      
+                    </div>
+                    </div>
+                  </div>
+            </div>
         </div>
     </span>
-    <span class="wrapper" style="justify-content:center ;">
-        <div class="retangulo3">
-            <p class="Titulo" style="text-align: center;">Planejamento da Sprint</p>
-            <p class="Texto"> No início da Sprint, o Time de Desenvolvimento e o Proprietário do Produto se reúnem para
-                selecionar as tarefas que serão realizadas durante a Sprint.<br>
-                Em uma equipe de desenvolvimento de software, o Planejamento da Sprint pode envolver a seleção de
-                tarefas específicas, como "desenvolver funcionalidade de pagamento" e "implementar sistema de
-                notificação por e-mail" para uma Sprint de 2 semanas.
-            </p>
-        </div>
-    </span>
-    <span class="wrapper" style="justify-content:center ;">
-        <div class="retangulo3">
-            <p class="Titulo" style="text-align: center;">Retrospectiva da Sprint</p>
-            <p class="Texto"> No final da Sprint, a equipe apresenta o Incremento funcional resultante do trabalho da Sprint. P.O e os
-                clientes fornecem feedback. Após a Revisão da Sprint, a equipe realiza uma retrospectiva para identificar melhorias no processo.
-                Na Retrospectiva, a equipe pode discutir aprimoramentos como "melhorar a comunicação interna" e
-                "aumentar a automação de testes" para otimizar o próximo Sprint.
-            </p>
-        </div>
-    </span>
+
     
-    <span class="wrapper" style="justify-content:center;">
-        <div class="retangulo3" style="height: 350px; margin-bottom: 50px;">
-            <p class="Titulo" style="text-align: center; ">Reuniões Diárias (Daily Standup)</p>
-            <p class="Texto">
-                As reuniões diárias, também conhecidas como "standup meetings," são encontros diários de curta duração
-                nos quais os membros da equipe compartilham o progresso, desafios e planos para o dia.<br>
-                Em uma equipe de desenvolvimento de software, a reunião diária pode envolver cada membro relatando o que
-                fez no dia anterior, o que planeja fazer no dia atual e quais obstáculos enfrenta. Essas reuniões mantêm
-                a equipe alinhada, identificam problemas rapidamente e facilitam a colaboração.
-            </p>
-        </div>
-    </span>
 </main>
 {% endblock %}

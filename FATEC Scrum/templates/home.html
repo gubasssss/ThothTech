@@ -10,97 +10,107 @@
 
     <span class="gridContainer">
         <div class="row">
-            <div class="col-md-6">
-        <div class="retangulologo" >
-            <p class="Titulo" style="width: auto; height: auto;">
-                O que é o Método Ágil
-            </p>
-            <p class="Texto" style="width: auto; height: auto;">
-                A metodologia ágil é uma abordagem flexível e colaborativa para gerenciar projetos e equipes. Ela se
-                concentra na adaptação contínua, na entrega de valor ao cliente e na comunicação eficaz.
-            </p>
+            <div class="col-md-12">
+                <div class="card card-custom" >
+                    <div class="d-flex justify-content-center align-items-center">
+                    <img src="{{ url_for('static', filename='IMG/processo.png')}}" class="card-img-top" alt="..." style="width: 25%; margin: 8px;">
+                    
+                    <div class="card-body">
+                      <h5 class="card-title Titulo">O que é o Método Ágil</h5>
+                      <p class="card-text Texto" >A metodologia ágil é uma abordagem flexível e colaborativa para gerenciar projetos e equipes. Ela se
+                        concentra na adaptação contínua, na entrega de valor ao cliente e na comunicação eficaz.</p>
+                      <a href="/metodologia_agil" class="btn btn-primary">Ir para a página</a>
+                    </div>
+                    </div>
+                  </div>
+            </div>
         </div>
-        </div>
-        <div class="col-md-6">
-        <div class="quadrado1" style="margin-right: 55px; text-align: center;">
-            <img src="{{ url_for('static', filename='IMG/processo.png')}}"" alt=" Img 2 Home"
-                style="width: 330px; margin-top: 22px;">
-        </div>
-        </div>
-        
     </span>
 
-    <hr style="color: #D9D9D9; margin-top: 50px;">
+    <hr style="color: #181444; margin-top: 50px; height: 50px ;">
 
     <span class="gridContainer">
         <div class="row">
-            <div class="col-md-6 ">
-        <div class="quadrado1 quadrado2media" style="margin-top: 45px;margin-left: 85px;">
-            <img src="{{ url_for('static', filename='IMG/dip.png')}}" alt="Setas do Scrum"
-                style="margin-top: 25px; margin-left: 50px;">
-        </div>
-        </div>
-        <div class="col-md-6 mediaretangulo2">
-        <div class="retangulo2 ">
-            <p class="Titulo">
-                O que é o Scrum
-            </p>
-            <p class="Texto">
-                O Scrum é uma metodologia ágil amplamente utilizada no contexto da organização de processos em empresas
-                de desenvolvimento de software. Ele é projetado para facilitar a entrega eficiente de projetos, promover
-                a colaboração da equipe e permitir a adaptação contínua aos requisitos do cliente.
-            </p>
+            <div class="d-flex justify-content-center align-items-center">
+            <div class="col-md-9">
+                <div class="card card-custom" >
+                    <div class="d-flex justify-content-center align-items-center">
+                    
+                    <div class="card-body">
+                      <h5 class="card-title Titulo">O que é o Scrum</h5>
+                      <p class="card-text Texto">O Scrum é uma metodologia ágil amplamente utilizada no contexto da organização de processos em empresas de desenvolvimento de software. Ele é projetado para facilitar a entrega eficiente de projetos, promover a colaboração da equipe e permitir a adaptação contínua aos requisitos do cliente.</p>
+                      
+                    </div>
+                    <img src="{{ url_for('static', filename='IMG/dip.png')}}" class="card-img-top" alt="..." style="width: 25%; margin: 8px;">
+                    </div>
+                  </div>
+            </div>
         </div>
         </div>
     </span>
+    
+    <hr style="color: #181444; margin-top: 50px;">
 
-    <hr style="color: #D9D9D9; margin-top: 50px;">
-
-    <span class="gridContainer" style="margin-bottom: 50px;">
+    <span class="container" >
         <div class="row">
-        <div class="col-md-6">
-        <div class="retangulo" style="height: auto;">
-            <p class="Titulo">
-                Papéis no Scrum
-            </p>
-            <ul>
-                <li>
-                    <p class="Subtitulo">
-                        Product Owner (Dono do Produto):
-                    </p>
-                    <p class="TextoLista">
-                        O Product Owner é responsável por maximizar o valor do produto resultante do trabalho do Time
-                        Scrum. A forma como isso é feito pode variar amplamente entre organizações, equipes Scrum e
-                        indivíduos.
-                    </p>
-                </li>
-                <li>
-                    <p class="Subtitulo">
-                        Scrum Master (Mestre Scrum):
-                    </p>
-                    <p class="TextoLista">
-                        O Scrum Master é responsável por garantir que a equipe Scrum siga os princípios e processos do
-                        Scrum. Eles ajudam a remover obstáculos e facilitam as reuniões do Scrum.
-                    </p>
-                </li>
-                <li>
-                    <p class="Subtitulo">
-                        Time de Desenvolvimento (Development Team):
-                    </p>
-                    <p class="TextoLista">
-                        Este é o grupo de pessoas que realiza o trabalho real de desenvolvimento.
-                    </p>
-                </li>
-            </ul>
-        </div>
-        </div>
-        <div class="col-md-6">
-        <div class="quadrado1" style="margin-top: 150px; margin-right: 75px;">
-            <img src="{{ url_for('static', filename='IMG/team.png')}}" alt="Img 3 Home"
-                style="width: 330px; margin-top: 22px; margin-left: 33px;">
-        </div>
+            <div class="d-flex justify-content-center align-items-center">
+            <div class="col-md-11">
+                <div class="card card-custom" >
+                    <div class="d-flex justify-content-center align-items-center">
+                    
+                    <div class="card-body">
+                      <h5 class="card-title Titulo">O que é o Scrum</h5>
+                      
+                        <div class="accordion" id="accordionPanelsStayOpenExample" style="width: auto;">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                Product Owner (Dono do Produto)
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse ">
+                            <div class="accordion-body">
+                              O <strong>Product Owner</strong> é responsável por maximizar o valor do produto resultante do trabalho do Time
+                              Scrum. A forma como isso é feito pode variar amplamente entre organizações, equipes Scrum e
+                              indivíduos.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                Scrum Master (Mestre Scrum)
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                              O <strong>Scrum Master</strong> é responsável por garantir que a equipe Scrum siga os princípios e processos do
+                              Scrum. Eles ajudam a remover obstáculos e facilitam as reuniões do Scrum.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                Time de Desenvolvimento (Development Team)
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                              Este é o grupo de pessoas que realiza o trabalho real de desenvolvimento.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <img src="{{ url_for('static', filename='IMG/team.png')}}" class="card-img-top" alt="..." style="width: 25%; margin: 8px;">
+                    </div>
+                  </div>
+            </div>
         </div>
         </div>
     </span>
+
+    
 </main>
 {% endblock %}
