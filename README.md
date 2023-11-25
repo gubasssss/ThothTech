@@ -32,7 +32,7 @@
 <h2 aling="center"> 🧩Planejamento das Sprints </h2>
  
 
-  <img src="https://github.com/gubasssss/ThothTech/assets/143751785/ead60747-7f5e-410e-baff-7b7e17a89fb1"/>
+  <img src="https://github.com/gubasssss/ThothTech/assets/143751785/c9dec08e-0d7a-4991-91b4-ebdb9847705b"/>
 
     
 </p>
