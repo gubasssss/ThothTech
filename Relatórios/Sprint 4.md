@@ -69,3 +69,7 @@ Nesta quarta Sprint o foco foi finalizar detalhes para deixar o produto final co
 
 
 ## 👨‍💻Trabalho desenvolvido
+
+
+https://github.com/gubasssss/ThothTech/assets/143751785/11ac8c77-7eb3-400e-8882-152af67f4523
+
